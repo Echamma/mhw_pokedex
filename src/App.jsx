@@ -7,9 +7,9 @@ import PlayerStats from './PlayerStats';
 const App = () =>
 {
   return(
-    <div className='snap-y'>
-        <PlayerStats></PlayerStats>
-        <MonsterPokedex></MonsterPokedex>
+    <div className='snap-y snap-mandatory overflow-y-scroll scroll-smooth h-screen'>
+        <PlayerStats ></PlayerStats>
+        <MonsterPokedex ></MonsterPokedex>
     </div>
   )
 }

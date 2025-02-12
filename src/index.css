@@ -1,1 +1,8 @@
 @import "tailwindcss";
+.nergi{background-image: url("./assets/nergi.jpg");}
+.diablo{background-image: url("./assets/diablo.jpg");}
+
+
+h3{
+    font-size: x-large;
+}

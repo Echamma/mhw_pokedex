@@ -1,0 +1,62 @@
+{
+  "abilities":[{
+    "name": "Meowlotov Cocktail",
+    "description": "Throw a bomb on the ground that keeps explodes 3 times",
+    "level": 5
+  },
+  {
+    "name": "Dragonic Theft",
+    "description": "Steal an ability from a monster",
+    "level": 5
+  },
+  {
+    "name": "Dragonic Use",
+    "description": "Use the stolen ability",
+    "level": 10
+  },
+  {
+    "name": "Warforged",
+    "description": "When fighting multiple enemies gain an extra action",
+    "level": 10
+  },
+  {
+    "name": "Furr-ious",
+    "description": "Small animals will not attack you",
+    "level": 10
+  },
+  {
+    "name": "Power Drum",
+    "description": "your palico starts beating on the drum giving you and your allies a 15% dmg boost",
+    "level": 10
+  },
+  {
+    "name": "Healing Bomb",
+    "description": "The palico throws a bomb that heals you and the surrounding allies(1 square each side and diagonally)",
+    "level": 12
+  },
+  {
+    "name": "War Drums",
+    "description": "Need to have power drums equipped. Buffs power drum to 40%",
+    "level": 12
+  },
+  {
+    "name": "Advantage drums",
+    "description": "your next attack has and advantage roll",
+    "level": 14
+  },
+  {
+    "name": "Blood Awakening",
+    "description": "your 3rd consecutive hit does double dmg",
+    "level": 14
+  },
+  {
+    "name": "Defiance",
+    "description": "When monster enrages increase defense by 20%",
+    "level": 20
+  },
+  {
+    "name": "Element exploit",
+    "description": "Increase elemental damage done by another D6",
+    "level": 20
+  }]
+}

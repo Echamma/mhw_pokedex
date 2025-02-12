@@ -1,0 +1,3925 @@
+{
+    "GreatSword": {
+      "Passives": [
+        {
+          "level": 1,
+          "Ability": "GREAT CHARGER",
+          "Description": "Each charge makes your attack do 50% more damage.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 2,
+          "Ability": "Heavy Swing",
+          "Description": "Attacks have a chance to knock enemies back (10% chance).",
+          "Damage or Healing": null
+        },
+        {
+          "level": 3,
+          "Ability": "Critical Strike",
+          "Description": "Critical hits deal an additional 1d6 damage.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 4,
+          "Ability": "Armor Breaker",
+          "Description": "Your attacks reduce the target's armor by 2 for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 5,
+          "Ability": "Momentum",
+          "Description": "For every consecutive hit, gain +1 to damage rolls (stacking up to 3 times).",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Intimidating Presence",
+          "Description": "Enemies within 5 feet have a -1 penalty to attack rolls against you.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 7,
+          "Ability": "Grounded Stance",
+          "Description": "Gain +2 to defense rolls when standing still.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 8,
+          "Ability": "Battle-Hardened",
+          "Description": "Reduce incoming damage by 2 for each successful hit you land in a turn.",
+          "Damage or Healing": "-2 per hit"
+        },
+        {
+          "level": 9,
+          "Ability": "Unyielding",
+          "Description": "Once per battle, ignore the first instance of damage taken.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 10,
+          "Ability": "Warrior's Resolve",
+          "Description": "Gain temporary health equal to 5% of your max health after a successful attack. It disappears if not attacking or failed attack.",
+          "Damage or Healing": "5% of max health"
+        },
+        {
+          "level": 11,
+          "Ability": "Enduring Strength",
+          "Description": "Gain +1 to strength-based checks for each turn you remain in combat.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 12,
+          "Ability": "Fearless",
+          "Description": "Gain advantage on saving throws against fear effects.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Vengeful Strike",
+          "Description": "When you take damage, your next attack deals an additional 1d4 damage.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 14,
+          "Ability": "Battlefield Awareness",
+          "Description": "Gain a +2 to initiative rolls.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 15,
+          "Ability": "Unstoppable Force",
+          "Description": "Your charge attacks cannot be interrupted.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 16,
+          "Ability": "Resilient",
+          "Description": "Gain +1 to all saving throws.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Fury of the Blade",
+          "Description": "Each time you deal damage, increase your damage by 1 for the next attack.",
+          "Damage or Healing": "+1"
+        },
+        {
+          "level": 18,
+          "Ability": "Shielded Mind",
+          "Description": "Gain advantage on saving throws against mind-affecting effects.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 19,
+          "Ability": "Tactical Fighter",
+          "Description": "Gain a +2 bonus to attack rolls against enemies that are flanked.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 20,
+          "Ability": "Warrior's Endurance",
+          "Description": "Regain 1d4 health at the start of your turn if you have taken damage in the previous turn.",
+          "Damage or Healing": "1d4"
+        }
+      ],
+      "Actions": [
+        {
+          "level": 1,
+          "Ability": "Cleave",
+          "Description": "Perform a wide swing that hits all enemies in front of you.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 2,
+          "Ability": "Savage Strike",
+          "Description": "A powerful single-target attack that deals double damage on a critical hit.",
+          "Damage or Healing": "Double damage"
+        },
+        {
+          "level": 3,
+          "Ability": "Whirlwind",
+          "Description": "Spin around, dealing damage to all adjacent enemies.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 4,
+          "Ability": "Ground Slam",
+          "Description": "Slam your sword into the ground, creating a shockwave that knocks enemies prone.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 5,
+          "Ability": "Charge Attack",
+          "Description": "Charge forward, dealing damage to all enemies in a straight line.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Defensive Slash",
+          "Description": "Make a defensive strike that reduces incoming damage by half for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 7,
+          "Ability": "Rupture",
+          "Description": "Strike the ground, causing fissures that deal damage to enemies in a small area.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 8,
+          "Ability": "Shield Bash",
+          "Description": "Use the flat of your sword to bash an enemy, stunning them for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 9,
+          "Ability": "Felling Blow",
+          "Description": "A powerful downward strike that deals extra damage to prone enemies.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 10,
+          "Ability": "Arcane Slash",
+          "Description": "Infuse your attack with elemental energy, dealing an additional 1d4 elemental damage.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 11,
+          "Ability": "Crescent Moon",
+          "Description": "A sweeping attack that deals damage to all enemies in a 180-degree arc.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 12,
+          "Ability": "Decisive Strike",
+          "Description": "A single powerful attack that deals an additional 1d8 damage if the target is below half health.",
+          "Damage or Healing": "1d8"
+        },
+        {
+          "level": 13,
+          "Ability": "Rage of the Sword",
+          "Description": "Unleash a flurry of strikes, making three attacks against a single target.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 14,
+          "Ability": "Sundering Strike",
+          "Description": "Deal damage and reduce the target's damage output by 1d4 for one turn.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 15,
+          "Ability": "Furious Charge",
+          "Description": "Charge at an enemy, dealing damage and knocking them prone.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 16,
+          "Ability": "Guardian's Strike",
+          "Description": "Make an attack that grants an ally within 10 feet a +2 to their next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Elemental Burst",
+          "Description": "Release a wave of elemental energy, dealing damage to all enemies in a small radius.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 18,
+          "Ability": "Reaping Strike",
+          "Description": "A powerful attack that heals you for half the damage dealt.",
+          "Damage or Healing": "50% of damage dealt"
+        },
+        {
+          "level": 19,
+          "Ability": "Vortex Slash",
+          "Description": "Create a swirling vortex of energy that pulls enemies towards you and deals damage.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 20,
+          "Ability": "Final Stand",
+          "Description": "Make a desperate attack that deals double damage but leaves you vulnerable (disadvantage on next defense roll).",
+          "Damage or Healing": "Double damage"
+        }
+      ],
+      "Semi-Actions": [
+        {
+          "level": 1,
+          "Ability": "Launch an ally towards a target",
+          "Description": "Use your strength to propel an ally into an enemy, dealing damage.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 2,
+          "Ability": "Staggering Blow",
+          "Description": "Make a quick strike that causes the enemy to lose their next action.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 3,
+          "Ability": "Defensive Position",
+          "Description": "Take a defensive stance, gaining +2 to defense rolls until your next turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 4,
+          "Ability": "Powerful Charge",
+          "Description": "Charge at an enemy, dealing damage and pushing them back 5 feet.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 5,
+          "Ability": "Shield Guard",
+          "Description": "Use your sword to block an incoming attack, reducing damage by half.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Counter Strike",
+          "Description": "If an enemy misses an attack against you, make a free attack in response.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 7,
+          "Ability": "Disarm",
+          "Description": "Attempt to knock a weapon from an enemy's hand with a precise strike.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 8,
+          "Ability": "Reposition",
+          "Description": "Move to a different location without provoking attacks of opportunity.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 9,
+          "Ability": "Stun Strike",
+          "Description": "Make a quick attack that has a chance to stun the target for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 10,
+          "Ability": "Area Control",
+          "Description": "Create a barrier with your sword, preventing enemies from passing through for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 11,
+          "Ability": "Tactical Maneuver",
+          "Description": "Shift your position to gain advantage on your next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 12,
+          "Ability": "Defensive Retreat",
+          "Description": "Move away from an enemy while gaining a temporary boost to your defense.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Quick Recovery",
+          "Description": "Use a moment to regain your composure, allowing you to reroll a failed defense check.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 14,
+          "Ability": "Feint",
+          "Description": "Distract an enemy, giving you advantage on your next attack against them.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 15,
+          "Ability": "Shield Wall",
+          "Description": "Form a protective barrier with your sword, granting allies within 5 feet a +1 to defense rolls.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 16,
+          "Ability": "Disrupting Strike",
+          "Description": "Make an attack that interrupts an enemy's spellcasting, forcing them to make a concentration check.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Momentum Shift",
+          "Description": "Change your stance to gain a temporary bonus to your next attack based on your movement.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 18,
+          "Ability": "Precision Strike",
+          "Description": "Focus your attack to bypass an enemy's defenses, ignoring their armor for this attack.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 19,
+          "Ability": "Reckless Assault",
+          "Description": "Make an aggressive attack that deals extra damage but leaves you vulnerable to counterattacks.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 20,
+          "Ability": "Battlefield Shift",
+          "Description": "Move an enemy 5 feet in any direction with a successful attack.",
+          "Damage or Healing": null
+        }
+      ],
+      "Bonus Actions": [
+        {
+          "level": 1,
+          "Ability": "Guard Stance",
+          "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+          "Damage or Healing": "20"
+        },
+        {
+          "level": 2,
+          "Ability": "Quick Slash",
+          "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+          "Damage or Healing": "Half damage"
+        },
+        {
+          "level": 3,
+          "Ability": "Battle Cry",
+          "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 4,
+          "Ability": "Second Wind",
+          "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+          "Damage or Healing": "1d10"
+        },
+        {
+          "level": 5,
+          "Ability": "Focus",
+          "Description": "Gain advantage on your next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Power Surge",
+          "Description": "Increase your damage by 1d4 for your next attack.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 7,
+          "Ability": "Tactical Retreat",
+          "Description": "Move away from an enemy without provoking attacks of opportunity.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 8,
+          "Ability": "Rallying Shout",
+          "Description": "Heal an ally for 1d6 health within 10 feet.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 9,
+          "Ability": "Adrenaline Rush",
+          "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 10,
+          "Ability": "Elemental Infusion",
+          "Description": "Temporarily imbue your sword with elemental energy, adding 1d4 elemental damage to your next attack.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 11,
+          "Ability": "Swift Recovery",
+          "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 12,
+          "Ability": "Inspiring Presence",
+          "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Quick Defense",
+          "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 14,
+          "Ability": "Fury Unleashed",
+          "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 15,
+          "Ability": "Cunning Action",
+          "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 16,
+          "Ability": "Elemental Shield",
+          "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Heroic Stand",
+          "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 18,
+          "Ability": "Rallying Call",
+          "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+          "Damage or Healing": "Equal to your level"
+        },
+        {
+          "level": 19,
+          "Ability": "Surge of Energy",
+          "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 20,
+          "Ability": "Lasting Impact",
+          "Description": "Your next attack leaves a lingering effect, causing the target to take 1d4 damage at the start of their next turn.",
+          "Damage or Healing": "1d4"
+        }
+      ]
+    },
+    "Gauntlets": {
+    "Passives": [
+      {
+        "level": 1,
+        "Ability": "Iron Grip",
+        "Description": "Gain +1 to grapple checks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Fist of Fury",
+        "Description": "Unarmed strikes deal an additional 1 damage.",
+        "Damage or Healing": "1"
+      },
+      {
+        "level": 3,
+        "Ability": "Defensive Stance",
+        "Description": "Gain +1 to defense rolls while unarmed.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Unyielding",
+        "Description": "Once per battle, ignore the first instance of damage taken.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Counter Punch",
+        "Description": "Gain a +2 bonus to attack rolls after being hit.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Stalwart Defender",
+        "Description": "Reduce damage taken by 1 for each successful unarmed strike.",
+        "Damage or Healing": "-1 per hit"
+      },
+      {
+        "level": 7,
+        "Ability": "Quick Reflexes",
+        "Description": "Gain advantage on initiative rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Iron Will",
+        "Description": "Gain +2 to saving throws against being stunned.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Fist of the Mountain",
+        "Description": "Unarmed strikes deal an additional 1d4 damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 10,
+        "Ability": "Resilient",
+        "Description": "Gain +1 to all saving throws.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Unbreakable",
+        "Description": "Once per day, regain 1d6 health when reduced to 0 hit points.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 12,
+        "Ability": "Fearless",
+        "Description": "Gain advantage on saving throws against fear effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Vengeful Strike",
+        "Description": "When you take damage, your next unarmed strike deals an additional 1d4 damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 14,
+        "Ability": "Battlefield Awareness",
+        "Description": "Gain a +2 to initiative rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Unstoppable Force",
+        "Description": "Your unarmed attacks cannot be interrupted.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Fury of the Gauntlet",
+        "Description": "Each time you deal damage, increase your damage by 1 for the next attack.",
+        "Damage or Healing": "+1"
+      },
+      {
+        "level": 17,
+        "Ability": "Shielded Mind",
+        "Description": "Gain advantage on saving throws against mind-affecting effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Tactical Fighter",
+        "Description": "Gain a +2 bonus to attack rolls against enemies that are flanked.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Iron Fist",
+        "Description": "Unarmed strikes deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 20,
+        "Ability": "Gauntlet's Endurance",
+        "Description": "Regain 1d4 health at the start of your turn if you have taken damage in the previous turn.",
+        "Damage or Healing": "1d4"
+      }
+    ],
+    "Actions": [
+      {
+        "level": 1,
+        "Ability": "Punch",
+        "Description": "Make a basic unarmed strike against a target.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 2,
+        "Ability": "Palm Strike",
+        "Description": "A quick strike that deals double damage on a critical hit.",
+        "Damage or Healing": "Double damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Hammer Fist",
+        "Description": "A powerful downward strike that deals an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 4,
+        "Ability": "Ground Slam",
+        "Description": "Slam your fists into the ground, creating a shockwave that knocks enemies prone.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Charge Attack",
+        "Description": "Charge forward, dealing damage to all enemies in a straight line.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Defensive Strike",
+        "Description": "Make a defensive strike that reduces incoming damage by half for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Rupture",
+        "Description": "Strike the ground, causing fissures that deal damage to enemies in a small area.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Shield Bash",
+        "Description": "Use your gauntlet to bash an enemy, stunning them for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Felling Blow",
+        "Description": "A powerful downward strike that deals extra damage to prone enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Arcane Strike",
+        "Description": "Infuse your attack with elemental energy, dealing an additional 1d4 elemental damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Crescent Strike",
+        "Description": "A sweeping attack that deals damage to all enemies in a 180-degree arc.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Decisive Strike",
+        "Description": "A single powerful attack that deals an additional 1d8 damage if the target is below half health.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 13,
+        "Ability": "Rage of the Gauntlet",
+        "Description": "Unleash a flurry of strikes, making three attacks against a single target.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Sundering Strike",
+        "Description": "Deal damage and reduce the target's damage output by 1d4 for one turn.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 15,
+        "Ability": "Furious Charge",
+        "Description": "Charge at an enemy, dealing damage and knocking them prone.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Guardian's Strike",
+        "Description": "Make an attack that grants an ally within 10 feet a +2 to their next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Elemental Burst",
+        "Description": "Release a wave of elemental energy, dealing damage to all enemies in a small radius.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Reaping Strike",
+        "Description": "A powerful attack that heals you for half the damage dealt.",
+        "Damage or Healing": "50% of damage dealt"
+      },
+      {
+        "level": 19,
+        "Ability": "Vortex Strike",
+        "Description": "Create a swirling vortex of energy that pulls enemies towards you and deals damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Final Stand",
+        "Description": "Make a desperate attack that deals double damage but leaves you vulnerable (disadvantage on next defense roll).",
+        "Damage or Healing": "Double damage"
+      }
+    ],
+    "Semi-Actions": [
+      {
+        "level": 1,
+        "Ability": "Launch an ally",
+        "Description": "Use your strength to propel an ally into an enemy, dealing damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Staggering Blow",
+        "Description": "Make a quick strike that causes the enemy to lose their next action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Defensive Position",
+        "Description": "Take a defensive stance, gaining +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Powerful Charge",
+        "Description": "Charge at an enemy, dealing damage and pushing them back 5 feet.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Shield Guard",
+        "Description": "Use your gauntlet to block an incoming attack, reducing damage by half.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Counter Strike",
+        "Description": "If an enemy misses an attack against you, make a free attack in response.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Disarm",
+        "Description": "Attempt to knock a weapon from an enemy's hand with a precise strike.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Reposition",
+        "Description": "Move to a different location without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Stun Strike",
+        "Description": "Make a quick attack that has a chance to stun the target for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Area Control",
+        "Description": "Create a barrier with your gauntlet, preventing enemies from passing through for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Tactical Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Defensive Retreat",
+        "Description": "Move away from an enemy while gaining a temporary boost to your defense.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Recovery",
+        "Description": "Use a moment to regain your composure, allowing you to reroll a failed defense check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Feint",
+        "Description": "Distract an enemy, giving you advantage on your next attack against them.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Shield Wall",
+        "Description": "Form a protective barrier with your gauntlet, granting allies within 5 feet a +1 to defense rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Disrupting Strike",
+        "Description": "Make an attack that interrupts an enemy's spellcasting, forcing them to make a concentration check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Momentum Shift",
+        "Description": "Change your stance to gain a temporary bonus to your next attack based on your movement.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Precision Strike",
+        "Description": "Focus your attack to bypass an enemy's defenses, ignoring their armor for this attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Reckless Assault",
+        "Description": "Make an aggressive attack that deals extra damage but leaves you vulnerable to counterattacks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Battlefield Shift",
+        "Description": "Move an enemy 5 feet in any direction with a successful attack.",
+        "Damage or Healing": null
+      }
+    ],
+    "Bonus Actions": [
+      {
+        "level": 1,
+        "Ability": "Guard Stance",
+        "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+        "Damage or Healing": "20"
+      },
+      {
+        "level": 2,
+        "Ability": "Quick Strike",
+        "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+        "Damage or Healing": "Half damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Battle Cry",
+        "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Second Wind",
+        "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 5,
+        "Ability": "Focus",
+        "Description": "Gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase your damage by 1d4 for your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 7,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Rallying Shout",
+        "Description": "Heal an ally for 1d6 health within 10 feet.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Adrenaline Rush",
+        "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Elemental Infusion",
+        "Description": "Temporarily imbue your gauntlet with elemental energy, adding 1d4 elemental damage to your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Swift Recovery",
+        "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Inspiring Presence",
+        "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Defense",
+        "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fury Unleashed",
+        "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Cunning Action",
+        "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Heroic Stand",
+        "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rallying Call",
+        "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 19,
+        "Ability": "Surge of Energy",
+        "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 20,
+        "Ability": "Lasting Impact",
+        "Description": "Your next attack leaves a lingering effect, causing the target to take 1d4 damage at the start of their next turn.",
+        "Damage or Healing": "1d4"
+      }
+    ]
+  },
+  "DualBlades": {
+    "Passives": [
+      {
+        "level": 1,
+        "Ability": "Flurry of Blades",
+        "Description": "Each successful hit increases your attack speed, allowing an additional attack on the next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Evasion",
+        "Description": "Gain a +2 to dodge rolls when wielding dual blades.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Critical Precision",
+        "Description": "Critical hits with dual blades deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 4,
+        "Ability": "Dancing Blades",
+        "Description": "Gain +1 to attack rolls for each consecutive hit (stacking up to 3 times).",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Shadow Step",
+        "Description": "Gain the ability to teleport 10 feet after making a successful attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Dual Wield Mastery",
+        "Description": "Reduce the penalty for dual-wielding by 1.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Quick Reflexes",
+        "Description": "Gain advantage on initiative rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Bloodthirsty",
+        "Description": "Regain 1d4 health for each enemy you defeat in combat.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 9,
+        "Ability": "Keen Edge",
+        "Description": "Your attacks have a 10% chance to ignore the target's armor.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Whirlwind Dance",
+        "Description": "Gain a +1 to defense rolls when surrounded by multiple enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Finesse Fighter",
+        "Description": "Use your Dexterity instead of Strength for attack and damage rolls with dual blades.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Adrenaline Surge",
+        "Description": "Once per battle, gain an extra action after successfully dodging an attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Blade Mastery",
+        "Description": "Your attacks deal an additional 1d4 damage against enemies below half health.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 14,
+        "Ability": "Unyielding Spirit",
+        "Description": "Gain temporary hit points equal to your level after a successful attack.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 15,
+        "Ability": "Combat Awareness",
+        "Description": "Gain a +2 bonus to perception checks while wielding dual blades.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Duelist's Focus",
+        "Description": "Gain advantage on attack rolls against a single target for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Fury of the Dance",
+        "Description": "Each time you deal damage, increase your damage by 1 for the next attack.",
+        "Damage or Healing": "+1"
+      },
+      {
+        "level": 18,
+        "Ability": "Swift Recovery",
+        "Description": "Regain 1d4 health at the start of your turn if you have taken damage in the previous turn.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 19,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Shadow's Embrace",
+        "Description": "Gain advantage on stealth checks while wielding dual blades.",
+        "Damage or Healing": null
+      }
+    ],
+    "Actions": [
+      {
+        "level": 1,
+        "Ability": "Twin Slash",
+        "Description": "Perform two quick slashes at a single target, dealing damage twice.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Dancing Strike",
+        "Description": "A series of rapid strikes that hit all adjacent enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Shadow Dance",
+        "Description": "Teleport behind an enemy and make a free attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Flickering Blades",
+        "Description": "Make a quick attack that has a chance to confuse the target, giving them disadvantage on their next attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Rapid Assault",
+        "Description": "Make three quick attacks against a single target.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Blade Barrage",
+        "Description": "Unleash a flurry of strikes, dealing damage to all enemies in a small radius.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Disarm",
+        "Description": "Attempt to knock a weapon from an enemy's hand with a precise strike.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Eviscerate",
+        "Description": "A powerful strike that deals double damage on a critical hit and causes the target to bleed (1d4 damage at the start of their next turn).",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 9,
+        "Ability": "Whirlwind Attack",
+        "Description": "Spin around, dealing damage to all adjacent enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Shadow Strike",
+        "Description": "A stealthy attack that deals extra damage if you are hidden from the target.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Fury of the Blades",
+        "Description": "Make a series of rapid strikes that deal damage to all adjacent enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Piercing Thrust",
+        "Description": "A focused attack that deals extra damage and ignores 2 points of armor.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Blade Dance",
+        "Description": "Move through enemies, dealing damage to each one you pass.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Crescent Slash",
+        "Description": "A sweeping attack that deals damage to all enemies in a 180-degree arc.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Stunning Strike",
+        "Description": "Make an attack that has a chance to stun the target for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Grappling Strike",
+        "Description": "Attempt to grapple an enemy while dealing damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Flicker Step",
+        "Description": "Move 10 feet and make an attack, gaining advantage on the attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rupture",
+        "Description": "Strike the ground, causing fissures that deal damage to enemies in a small area.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Decisive Strike",
+        "Description": "A single powerful attack that deals an additional 1d8 damage if the target is below half health.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 20,
+        "Ability": "Shadow's Embrace",
+        "Description": "Make an attack that allows you to teleport to a location within 10 feet after hitting.",
+        "Damage or Healing": null
+      }
+    ],
+    "Semi-Actions": [
+      {
+        "level": 1,
+        "Ability": "Quick Recovery",
+        "Description": "Use a moment to regain your composure, allowing you to reroll a failed defense check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Defensive Position",
+        "Description": "Take a defensive stance, gaining +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Feint",
+        "Description": "Distract an enemy, giving you advantage on your next attack against them.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Tactical Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Grappling Maneuver",
+        "Description": "Attempt to grapple an enemy and deal damage if successful.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Disrupting Strike",
+        "Description": "Make an attack that interrupts an enemy's spellcasting, forcing them to make a concentration check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Momentum Shift",
+        "Description": "Change your stance to gain a temporary bonus to your next attack based on your movement.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Precision Strike",
+        "Description": "Focus your attack to bypass an enemy's defenses, ignoring their armor for this attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Defensive Retreat",
+        "Description": "Move away from an enemy while gaining a temporary boost to your defense.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Staggering Blow",
+        "Description": "Make a quick strike that causes the enemy to lose their next action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Counter Maneuver",
+        "Description": "If an enemy misses an attack against you, make a free attack in response.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Grapple and Strike",
+        "Description": "Attempt to grapple an enemy and deal damage simultaneously.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Disarm Attempt",
+        "Description": "Attempt to knock a weapon from an enemy's hand with a precise strike.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Quick Shift",
+        "Description": "Change your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Fist of Defense",
+        "Description": "Use your blades to create a temporary barrier that absorbs damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Battlefield Awareness",
+        "Description": "Gain a +2 to initiative rolls and perception checks while wielding dual blades.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Shadow's Veil",
+        "Description": "Gain advantage on stealth checks for one turn after making an attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Shadow's Embrace",
+        "Description": "Gain advantage on stealth checks while wielding dual blades.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Duelist's Focus",
+        "Description": "Gain advantage on attack rolls against a single target for one turn.",
+        "Damage or Healing": null
+      }
+    ],
+    "Bonus Actions": [
+      {
+        "level": 1,
+        "Ability": "Guard Stance",
+        "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+        "Damage or Healing": "20"
+      },
+      {
+        "level": 2,
+        "Ability": "Quick Slash",
+        "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+        "Damage or Healing": "Half damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Battle Cry",
+        "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Second Wind",
+        "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 5,
+        "Ability": "Focus",
+        "Description": "Gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase your damage by 1d4 for your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 7,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Rallying Shout",
+        "Description": "Heal an ally for 1d6 health within 10 feet.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Adrenaline Rush",
+        "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Elemental Infusion",
+        "Description": "Temporarily imbue your blades with elemental energy, adding 1d4 elemental damage to your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Swift Recovery",
+        "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Inspiring Presence",
+        "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Defense",
+        "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fury Unleashed",
+        "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Cunning Action",
+        "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Heroic Stand",
+        "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rallying Call",
+        "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 19,
+        "Ability": "Surge of Energy",
+        "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 20,
+        "Ability": "Lasting Impact",
+        "Description": "Your next attack leaves a lingering effect, causing the target to take 1d4 damage at the start of their next turn.",
+        "Damage or Healing": "1d4"
+      }
+    ]
+  },
+  
+  "Lance": {
+    "Passives": [
+      {
+        "level": 1,
+        "Ability": "Defensive Stance",
+        "Description": "Gain +2 to armor while wielding a lance.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Piercing Thrust",
+        "Description": "Your attacks ignore 2 points of armor.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Charge Mastery",
+        "Description": "Gain a bonus to damage when charging (1d6 extra damage).",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 4,
+        "Ability": "Unyielding Guard",
+        "Description": "Gain a temporary shield that absorbs 10 damage after a successful attack.",
+        "Damage or Healing": "10"
+      },
+      {
+        "level": 5,
+        "Ability": "Long Reach",
+        "Description": "Your melee attacks have an extended range of 10 feet.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Counter Charge",
+        "Description": "If an enemy charges you, you can make a free attack as a reaction.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Stalwart Defender",
+        "Description": "Gain +1 to defense rolls when using the lance defensively.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Momentum",
+        "Description": "Each consecutive hit increases your attack damage by 1 (stacking up to 3 times).",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Battlefield Control",
+        "Description": "Enemies within 5 feet of you have disadvantage on their attack rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Grappling Point",
+        "Description": "When you successfully hit an enemy, you can attempt to grapple them as a free action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Shield Bash",
+        "Description": "Your lance can be used to bash enemies, dealing 1d4 damage and stunning them on a critical hit.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 12,
+        "Ability": "Tactical Fighter",
+        "Description": "Gain a +2 bonus to attack rolls against enemies that are flanked.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Warrior's Resolve",
+        "Description": "Once per battle, ignore the first instance of damage taken.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fearless Charge",
+        "Description": "Gain advantage on saving throws against fear effects when charging.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Grounded Stance",
+        "Description": "Gain +2 to defense rolls when standing still.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Enduring Strength",
+        "Description": "Gain +1 to strength-based checks for each turn you remain in combat.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Vengeful Strike",
+        "Description": "When you take damage, your next attack deals an additional 1d4 damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 18,
+        "Ability": "Resilient",
+        "Description": "Gain +1 to all saving throws.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Fury of the Lance",
+        "Description": "Each time you deal damage, increase your damage by 1 for the next attack.",
+        "Damage or Healing": "+1"
+      },
+      {
+        "level": 20,
+        "Ability": "Warrior's Endurance",
+        "Description": "Regain 1d4 health at the start of your turn if you have taken damage in the previous turn.",
+        "Damage or Healing": "1d4"
+      }
+    ],
+    "Actions": [
+      {
+        "level": 1,
+        "Ability": "Charge Attack",
+        "Description": "Charge forward, dealing damage to all enemies in a straight line.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Piercing Strike",
+        "Description": "A focused thrust that deals double damage on a critical hit and ignores 2 points of armor.",
+        "Damage or Healing": "Double damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Defensive Thrust",
+        "Description": "Make a defensive strike that reduces incoming damage by half for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Ground Slam",
+        "Description": "Slam your lance into the ground, creating a shockwave that knocks enemies prone.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Cavalry Charge",
+        "Description": "If you move at least 20 feet before attacking, deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 6,
+        "Ability": "Shield Bash",
+        "Description": "Use the flat of your lance to bash an enemy, stunning them for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Rupture",
+        "Description": "Strike the ground, causing fissures that deal damage to enemies in a small area.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Crescent Sweep",
+        "Description": "A sweeping attack that deals damage to all enemies in a 180-degree arc.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Lance Barrage",
+        "Description": "Unleash a series of thrusts, making two attacks against a single target.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Stunning Thrust",
+        "Description": "Make an attack that has a chance to stun the target for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Grappling Thrust",
+        "Description": "Attempt to grapple an enemy while dealing damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Defensive Position",
+        "Description": "Take a defensive stance, gaining +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Felling Blow",
+        "Description": "A powerful downward strike that deals extra damage to prone enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Elemental Thrust",
+        "Description": "Infuse your attack with elemental energy, dealing an additional 1d4 elemental damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 15,
+        "Ability": "Whirlwind Charge",
+        "Description": "Charge at an enemy, dealing damage and knocking them prone.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Sundering Strike",
+        "Description": "Deal damage and reduce the target's damage output by 1d4 for one turn.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 17,
+        "Ability": "Guardian's Strike",
+        "Description": "Make an attack that grants an ally within 10 feet a +2 to their next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Elemental Burst",
+        "Description": "Release a wave of elemental energy, dealing damage to all enemies in a small radius.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Reaping Strike",
+        "Description": "A powerful attack that heals you for half the damage dealt.",
+        "Damage or Healing": "50% of damage dealt"
+      },
+      {
+        "level": 20,
+        "Ability": "Final Stand",
+        "Description": "Make a desperate attack that deals double damage but leaves you vulnerable (disadvantage on next defense roll).",
+        "Damage or Healing": "Double damage"
+      }
+    ],
+    "Semi-Actions": [
+      {
+        "level": 1,
+        "Ability": "Quick Recovery",
+        "Description": "Use a moment to regain your composure, allowing you to reroll a failed defense check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Tactical Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Grappling Maneuver",
+        "Description": "Attempt to grapple an enemy and deal damage if successful.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Disrupting Strike",
+        "Description": "Make an attack that interrupts an enemy's spellcasting, forcing them to make a concentration check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Momentum Shift",
+        "Description": "Change your stance to gain a temporary bonus to your next attack based on your movement.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Precision Strike",
+        "Description": "Focus your attack to bypass an enemy's defenses, ignoring their armor for this attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Defensive Retreat",
+        "Description": "Move away from an enemy while gaining a temporary boost to your defense.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Staggering Blow",
+        "Description": "Make a quick strike that causes the enemy to lose their next action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Shield Guard",
+        "Description": "Use your lance to block an incoming attack, reducing damage by half.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Adrenaline Surge",
+        "Description": "Gain a temporary boost to your speed for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Counter Maneuver",
+        "Description": "If an enemy misses an attack against you, make a free attack in response.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Grapple and Strike",
+        "Description": "Attempt to grapple an enemy and deal damage simultaneously.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Disarm Attempt",
+        "Description": "Attempt to knock a weapon from an enemy's hand with a precise strike.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Quick Shift",
+        "Description": "Change your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Fist of Defense",
+        "Description": "Use your lance to create a temporary barrier that absorbs damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Battlefield Awareness",
+        "Description": "Gain a +2 to initiative rolls and perception checks while wielding a lance.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Grounded Defense",
+        "Description": "Take a moment to brace yourself, gaining a +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Shielded Stance",
+        "Description": "Use your lance defensively, gaining a temporary bonus to your armor class.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Lance's Embrace",
+        "Description": "Gain advantage on your next attack roll after successfully defending against an attack.",
+        "Damage or Healing": null
+      }
+    ],
+    "Bonus Actions": [
+      {
+        "level": 1,
+        "Ability": "Guard Stance",
+        "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+        "Damage or Healing": "20"
+      },
+      {
+        "level": 2,
+        "Ability": "Quick Thrust",
+        "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+        "Damage or Healing": "Half damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Battle Cry",
+        "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Second Wind",
+        "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 5,
+        "Ability": "Focus",
+        "Description": "Gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase your damage by 1d4 for your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 7,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Rallying Shout",
+        "Description": "Heal an ally for 1d6 health within 10 feet.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Adrenaline Rush",
+        "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Elemental Infusion",
+        "Description": "Temporarily imbue your lance with elemental energy, adding 1d4 elemental damage to your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Swift Recovery",
+        "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Inspiring Presence",
+        "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Defense",
+        "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fury Unleashed",
+        "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Cunning Action",
+        "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Heroic Stand",
+        "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rallying Call",
+        "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 19,
+        "Ability": "Surge of Energy",
+        "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 20,
+        "Ability": "Lance of the Ancients",
+        "Description": "Empower your next attack, allowing it to deal an additional 1d6 damage and inflict a bleeding effect (1d4 damage at the start of their next turn).",
+        "Damage or Healing": "1d6 + 1d4"
+      }
+    ]
+  },
+  "GunLance": {
+    "Passives": [
+      {
+        "level": 1,
+        "Ability": "Armor Piercer",
+        "Description": "Your attacks ignore 1 point of armor.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Shield Mastery",
+        "Description": "Gain +2 to defense rolls while using a shield.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Explosive Charge",
+        "Description": "Your charged attacks deal an additional 1d4 damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 4,
+        "Ability": "Blast Shield",
+        "Description": "Gain temporary immunity to explosive damage once per battle.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Recoil Control",
+        "Description": "Reduce recoil damage from your attacks by 1d6.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 6,
+        "Ability": "Heavy Armor Proficiency",
+        "Description": "Gain proficiency with heavy armor.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Fortified Stance",
+        "Description": "Gain +1 to defense rolls when standing still.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Explosive Resilience",
+        "Description": "Gain resistance to explosive damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Critical Blast",
+        "Description": "Your critical hits deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 10,
+        "Ability": "Blast Zone",
+        "Description": "Enemies within 5 feet of you take 1d4 damage when you use a blast.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Shield Wall",
+        "Description": "Gain +2 to defense rolls when adjacent to an ally.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Explosive Impact",
+        "Description": "Your attacks have a chance to knock enemies prone.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Armor of the Gunlance",
+        "Description": "Gain +2 to armor while wielding a gun lance.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Blast Mastery",
+        "Description": "Increase the damage of your explosive attacks by 1d4.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 15,
+        "Ability": "Unyielding Defense",
+        "Description": "Once per battle, ignore the first instance of damage taken.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Vigilant Guardian",
+        "Description": "Gain +1 to initiative rolls while wielding a gun lance.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Fury of the Blast",
+        "Description": "Your next attack after taking damage deals an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 18,
+        "Ability": "Resilient Shield",
+        "Description": "Gain +1 to all saving throws while using a shield.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Master of Explosives",
+        "Description": "Your explosive attacks have a chance to stun enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Gunlance's Fury",
+        "Description": "Regain 1d6 health at the start of your turn if you have taken damage in the previous turn.",
+        "Damage or Healing": "1d6"
+      }
+    ],
+    "Actions": [
+      {
+        "level": 1,
+        "Ability": "Blast Shot",
+        "Description": "Fire a shot that deals damage to a single target.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 2,
+        "Ability": "Charge Blast",
+        "Description": "Charge your shot for extra damage.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 3,
+        "Ability": "Shield Bash",
+        "Description": "Bash an enemy with your shield, dealing damage and stunning them.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 4,
+        "Ability": "Explosive Round",
+        "Description": "Fire an explosive round that deals area damage.",
+        "Damage or Healing": "2d6"
+      },
+      {
+        "level": 5,
+        "Ability": "Rapid Fire",
+        "Description": "Make two attacks in quick succession.",
+        "Damage or Healing": "1d8 each"
+      },
+      {
+        "level": 6,
+        "Ability": "Defensive Shot",
+        "Description": "Fire a shot that grants you temporary defense.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Ground Slam",
+        "Description": "Slam your gun lance into the ground, creating a shockwave.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Cannon Barrage",
+        "Description": "Unleash a barrage of shots, dealing damage to all enemies in a line.",
+        "Damage or Healing": "3d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Stunning Blast",
+        "Description": "Fire a shot that has a chance to stun the target.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Grappling Shot",
+        "Description": "Attempt to grapple an enemy while dealing damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Elemental Shot",
+        "Description": "Infuse your shot with elemental energy for extra damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 12,
+        "Ability": "Defensive Position",
+        "Description": "Take a defensive stance, gaining +2 to defense rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Felling Blow",
+        "Description": "A powerful strike that deals extra damage to prone enemies.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Explosive Charge",
+        "Description": "Charge your shot for an explosive impact.",
+        "Damage or Healing": "2d8"
+      },
+      {
+        "level": 15,
+        "Ability": "Whirlwind Blast",
+        "Description": "Fire in a wide arc, hitting multiple enemies.",
+        "Damage or Healing": "1d6 each"
+      },
+      {
+        "level": 16,
+        "Ability": "Guardian's Shot",
+        "Description": "Make an attack that grants an ally a bonus to their next attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Elemental Burst",
+        "Description": "Release a wave of elemental energy, dealing damage to all enemies.",
+        "Damage or Healing": "2d6"
+      },
+      {
+        "level": 18,
+        "Ability": "Reaping Shot",
+        "Description": "A powerful attack that heals you for half the damage dealt.",
+        "Damage or Healing": "50% of damage dealt"
+      },
+      {
+        "level": 19,
+        "Ability": "Final Blast",
+        "Description": "Make a desperate attack that deals double damage.",
+        "Damage or Healing": "Double damage"
+      },
+      {
+        "level": 20,
+        "Ability": "Gunlance's Last Stand",
+        "Description": "Make a powerful attack that deals massive damage but leaves you vulnerable.",
+        "Damage or Healing": "3d10"
+      }
+    ],
+    "Semi-Actions": [
+      {
+        "level": 1,
+        "Ability": "Quick Recovery",
+        "Description": "Regain your composure, allowing you to reroll a failed defense check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Tactical Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Grappling Maneuver",
+        "Description": "Attempt to grapple an enemy and deal damage if successful.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Disrupting Strike",
+        "Description": "Make an attack that interrupts an enemy's spellcasting.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Momentum Shift",
+        "Description": "Change your stance to gain a temporary bonus to your next attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Precision Strike",
+        "Description": "Focus your attack to bypass an enemy's defenses.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Defensive Retreat",
+        "Description": "Move away from an enemy while gaining a temporary boost to your defense.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Staggering Blow",
+        "Description": "Make a quick strike that causes the enemy to lose their next action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Shield Guard",
+        "Description": "Use your gun lance to block an incoming attack, reducing damage by half.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Adrenaline Surge",
+        "Description": "Gain a temporary boost to your speed for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Counter Maneuver",
+        "Description": "If an enemy misses an attack against you, make a free attack in response.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Grapple and Strike",
+        "Description": "Attempt to grapple an enemy and deal damage simultaneously.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Disarm Attempt",
+        "Description": "Attempt to knock a weapon from an enemy's hand.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Quick Shift",
+        "Description": "Change your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Fist of Defense",
+        "Description": "Create a temporary barrier that absorbs damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Battlefield Awareness",
+        "Description": "Gain a +2 to initiative rolls and perception checks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Grounded Defense",
+        "Description": "Brace yourself, gaining a +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Shielded Stance",
+        "Description": "Use your gun lance defensively, gaining a temporary bonus to your armor class.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Gunlance's Embrace",
+        "Description": "Gain advantage on your next attack roll after successfully defending against an attack.",
+        "Damage or Healing": null
+      }
+    ],
+    "Bonus Actions": [
+      {
+        "level": 1,
+        "Ability": "Guard Stance",
+        "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+        "Damage or Healing": "20"
+      },
+      {
+        "level": 2,
+        "Ability": "Quick Thrust",
+        "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+        "Damage or Healing": "Half damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Battle Cry",
+        "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Second Wind",
+        "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 5,
+        "Ability": "Focus",
+        "Description": "Gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase your damage by 1d4 for your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 7,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Rallying Shout",
+        "Description": "Heal an ally for 1d6 health within 10 feet.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Adrenaline Rush",
+        "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Elemental Infusion",
+        "Description": "Temporarily imbue your gun lance with elemental energy, adding 1d4 elemental damage to your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Swift Recovery",
+        "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Inspiring Presence",
+        "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Defense",
+        "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fury Unleashed",
+        "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Cunning Action",
+        "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Heroic Stand",
+        "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rallying Call",
+        "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 19,
+        "Ability": "Surge of Energy",
+        "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 20,
+        "Ability": "Gunlance of the Ancients",
+        "Description": "Empower your next attack, allowing it to deal an additional 1d6 damage and inflict a bleeding effect (1d4 damage at the start of their next turn).",
+        "Damage or Healing": "1d6 + 1d4"
+      }
+    ]
+  },
+  "InsectGlaive": {
+    "Passives": [
+      {
+        "level": 1,
+        "Ability": "Aerial Mastery",
+        "Description": "Gain increased mobility while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Insect Bond",
+        "Description": "Your kinsect deals an additional 1d4 damage.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 3,
+        "Ability": "Resilient Wings",
+        "Description": "Gain resistance to falling damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Enhanced Kinsect",
+        "Description": "Your kinsect can now gather two types of extracts.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Agile Fighter",
+        "Description": "Gain +1 to initiative rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Kinsect Control",
+        "Description": "You can command your kinsect to attack as a bonus action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Extract Efficiency",
+        "Description": "Your extracts last an additional turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Aerial Assault",
+        "Description": "Your aerial attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Kinsect Resilience",
+        "Description": "Your kinsect gains temporary hit points equal to your level.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Master of Aerial Combat",
+        "Description": "You can make an additional attack while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Extract Mastery",
+        "Description": "You can now gather three types of extracts.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Kinsect Fury",
+        "Description": "Your kinsect's attacks deal an additional 1d8 damage.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 13,
+        "Ability": "Aerial Evasion",
+        "Description": "Gain advantage on saving throws against area effects while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Swift Recovery",
+        "Description": "Regain 1d6 health when you successfully gather an extract.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Kinsect Guardian",
+        "Description": "Your kinsect can shield you from one attack per turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Aerial Dominance",
+        "Description": "Enemies have disadvantage on attacks against you while you are airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Extract Empowerment",
+        "Description": "Your extracts grant an additional +2 to their effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Kinsect's Wrath",
+        "Description": "Your kinsect's attacks can now inflict status effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Master of the Skies",
+        "Description": "You can fly for a short duration once per battle.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Insect Glaive's Legacy",
+        "Description": "Regain 1d10 health at the start of your turn if you have taken damage in the previous turn.",
+        "Damage or Healing": "1d10"
+      }
+    ],
+    "Actions": [
+      {
+        "level": 1,
+        "Ability": "Basic Strike",
+        "Description": "Perform a basic attack with your insect glaive.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 2,
+        "Ability": "Kinsect Attack",
+        "Description": "Send your kinsect to attack a target.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 3,
+        "Ability": "Aerial Strike",
+        "Description": "Attack while airborne for increased damage.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 4,
+        "Ability": "Extract Gathering",
+        "Description": "Gather an extract from a defeated enemy.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Spinning Slash",
+        "Description": "Perform a spinning attack that hits multiple enemies.",
+        "Damage or Healing": "2d6"
+      },
+      {
+        "level": 6,
+        "Ability": "Kinsect Charge",
+        "Description": "Charge your kinsect to deal extra damage.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 7,
+        "Ability": "Aerial Combo",
+        "Description": "Perform a series of aerial attacks.",
+        "Damage or Healing": "3d6"
+      },
+      {
+        "level": 8,
+        "Ability": "Extract Infusion",
+        "Description": "Infuse your next attack with an extract for bonus effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Kinsect Barrage",
+        "Description": "Unleash a flurry of attacks with your kinsect.",
+        "Damage or Healing": "2d8"
+      },
+      {
+        "level": 10,
+        "Ability": "Aerial Assault",
+        "Description": "Launch a powerful attack while airborne.",
+        "Damage or Healing": "3d10"
+      },
+      {
+        "level": 11,
+        "Ability": "Extract Burst",
+        "Description": "Release a burst of energy from your gathered extracts.",
+        "Damage or Healing": "4d6"
+      },
+      {
+        "level": 12,
+        "Ability": "Kinsect Strike",
+        "Description": "Your kinsect strikes with increased damage.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 13,
+        "Ability": "Aerial Spin",
+        "Description": "Perform a spinning attack while airborne.",
+        "Damage or Healing": "2d8"
+      },
+      {
+        "level": 14,
+        "Ability": "Extract Empowerment",
+        "Description": "Empower your next attack with an extract for bonus damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Kinsect Fury",
+        "Description": "Your kinsect attacks deal double damage this turn.",
+        "Damage or Healing": "2d6"
+      },
+      {
+        "level": 16,
+        "Ability": "Aerial Barrage",
+        "Description": "Unleash a barrage of attacks while airborne.",
+        "Damage or Healing": "3d8"
+      },
+      {
+        "level": 17,
+        "Ability": "Extract Surge",
+        "Description": "Gain an extra action to gather extracts.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Kinsect's Wrath",
+        "Description": "Your kinsect's attacks can now inflict status effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Final Aerial Strike",
+        "Description": "Perform a devastating aerial attack.",
+        "Damage or Healing": "4d10"
+      },
+      {
+        "level": 20,
+        "Ability": "Insect Glaive's Mastery",
+        "Description": "Make a powerful attack that deals massive damage.",
+        "Damage or Healing": "5d10"
+      }
+    ],
+    "Semi-Actions": [
+      {
+        "level": 1,
+        "Ability": "Quick Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Kinsect Recall",
+        "Description": "Recall your kinsect to your side.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Aerial Dodge",
+        "Description": "Dodge an incoming attack while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Kinsect Shield",
+        "Description": "Use your kinsect to block an incoming attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Aerial Defense",
+        "Description": "Gain a temporary bonus to defense while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Quick Recovery",
+        "Description": "Regain your composure, allowing you to reroll a failed defense check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Kinsect's Aid",
+        "Description": "Your kinsect can assist you in your next action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Aerial Awareness",
+        "Description": "Gain a +2 to perception checks while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Tactical Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Kinsect's Guidance",
+        "Description": "Your kinsect provides you with tactical advice, granting advantage on your next roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Aerial Evasion",
+        "Description": "Gain advantage on saving throws against area effects while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Shift",
+        "Description": "Change your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Kinsect's Defense",
+        "Description": "Your kinsect can shield you from one attack per turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Aerial Guard",
+        "Description": "Gain a temporary bonus to your armor class while airborne.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Grounded Defense",
+        "Description": "Brace yourself, gaining a +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Battlefield Awareness",
+        "Description": "Gain a +2 to initiative rolls and perception checks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Kinsect's Vigilance",
+        "Description": "Your kinsect warns you of incoming attacks, granting advantage on defense rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Shielded Stance",
+        "Description": "Use your insect glaive defensively, gaining a temporary bonus to your armor class.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Insect Glaive's Embrace",
+        "Description": "Gain advantage on your next attack roll after successfully defending against an attack.",
+        "Damage or Healing": null
+      }
+    ],
+    "Bonus Actions": [
+      {
+        "level": 1,
+        "Ability": "Guard Stance",
+        "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+        "Damage or Healing": "20"
+      },
+      {
+        "level": 2,
+        "Ability": "Quick Thrust",
+        "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+        "Damage or Healing": "Half damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Battle Cry",
+        "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Second Wind",
+        "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 5,
+        "Ability": "Focus",
+        "Description": "Gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase your damage by 1d4 for your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 7,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Rallying Shout",
+        "Description": "Heal an ally for 1d6 health within 10 feet.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Adrenaline Rush",
+        "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Elemental Infusion",
+        "Description": "Temporarily imbue your insect glaive with elemental energy, adding 1d4 elemental damage to your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Swift Recovery",
+        "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Inspiring Presence",
+        "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Defense",
+        "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fury Unleashed",
+        "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Cunning Action",
+        "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Heroic Stand",
+        "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rallying Call",
+        "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 19,
+        "Ability": "Surge of Energy",
+        "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 20,
+        "Ability": "Insect Glaive's Legacy",
+        "Description": "Empower your next attack, allowing it to deal an additional 1d6 damage and inflict a bleeding effect (1d4 damage at the start of their next turn).",
+        "Damage or Healing": "1d6 + 1d4"
+      }
+    ]
+  },
+
+  "SwitchAxe": {
+    "Passives": [
+      {
+        "level": 1,
+        "Ability": "Axe Mastery",
+        "Description": "Increase damage dealt with axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Elemental Affinity",
+        "Description": "Gain a bonus to elemental damage based on your weapon's element.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Charge Efficiency",
+        "Description": "Reduce the time required to charge your axe.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Resilient Stance",
+        "Description": "Gain resistance to knockback while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Swift Transitions",
+        "Description": "Reduce cooldowns when switching between modes.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase damage for a short duration after switching modes.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Axe's Edge",
+        "Description": "Critical hits with the axe deal additional damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Elemental Burst",
+        "Description": "Your elemental attacks have a chance to inflict status effects.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Master of Switch",
+        "Description": "Gain a bonus to attack rolls when switching modes.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Axe Resilience",
+        "Description": "Gain temporary hit points when dealing damage with the axe.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Enhanced Charge",
+        "Description": "Increase the damage of charged attacks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Axe's Fury",
+        "Description": "Your axe attacks have a chance to deal bonus damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Elemental Mastery",
+        "Description": "Increase the effectiveness of elemental damage.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Defensive Stance",
+        "Description": "Gain a bonus to defense while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Axe's Embrace",
+        "Description": "Regain health when you successfully land a critical hit.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 16,
+        "Ability": "Swift Recovery",
+        "Description": "Regain stamina faster when in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Axe's Wrath",
+        "Description": "Your axe attacks deal additional damage based on your level.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Elemental Surge",
+        "Description": "Your elemental attacks have increased range.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Master of Elements",
+        "Description": "Gain a bonus to damage when using elemental attacks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Switch Axe's Legacy",
+        "Description": "Regain a portion of health when switching modes.",
+        "Damage or Healing": "1d10"
+      }
+    ],
+    "Actions": [
+      {
+        "level": 1,
+        "Ability": "Basic Slash",
+        "Description": "Perform a basic attack with your switch axe.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 2,
+        "Ability": "Charged Slash",
+        "Description": "Charge your axe for a powerful attack.",
+        "Damage or Healing": "2d8"
+      },
+      {
+        "level": 3,
+        "Ability": "Elemental Strike",
+        "Description": "Infuse your attack with elemental energy.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 4,
+        "Ability": "Axe Combo",
+        "Description": "Perform a series of slashes with your axe.",
+        "Damage or Healing": "3d6"
+      },
+      {
+        "level": 5,
+        "Ability": "Switch Attack",
+        "Description": "Switch modes and attack in one action.",
+        "Damage or Healing": "1d8"
+      },
+      {
+        "level": 6,
+        "Ability": "Elemental Burst",
+        "Description": "Unleash a burst of elemental energy with your attack.",
+        "Damage or Healing": "2d10"
+      },
+      {
+        "level": 7,
+        "Ability": "Axe Whirlwind",
+        "Description": "Perform a spinning attack that hits multiple enemies.",
+        "Damage or Healing": "2d6"
+      },
+      {
+        "level": 8,
+        "Ability": "Charged Elemental Strike",
+        "Description": "Charge your elemental attack for increased damage.",
+        "Damage or Healing": "3d10"
+      },
+      {
+        "level": 9,
+        "Ability": "Axe's Fury",
+        "Description": "Unleash a powerful attack that deals bonus damage.",
+        "Damage or Healing": "4d8"
+      },
+      {
+        "level": 10,
+        "Ability": "Final Slash",
+        "Description": "Perform a devastating final attack.",
+        "Damage or Healing": "5d10"
+      },
+      {
+        "level": 11,
+        "Ability": "Elemental Infusion",
+        "Description": "Infuse your next attack with elemental energy.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 12,
+        "Ability": "Axe Barrage",
+        "Description": "Unleash a barrage of axe attacks.",
+        "Damage or Healing": "3d8"
+      },
+      {
+        "level": 13,
+        "Ability": "Charged Whirlwind",
+        "Description": "Perform a spinning attack while charging your axe.",
+        "Damage or Healing": "4d6"
+      },
+      {
+        "level": 14,
+        "Ability": "Elemental Slash",
+        "Description": "Perform a slash that deals elemental damage.",
+        "Damage or Healing": "2d8"
+      },
+      {
+        "level": 15,
+        "Ability": "Axe's Wrath",
+        "Description": "Your axe attacks deal double damage this turn.",
+        "Damage or Healing": "2d10"
+      },
+      {
+        "level": 16,
+        "Ability": "Final Elemental Strike",
+        "Description": "Perform a final attack that deals massive elemental damage.",
+        "Damage or Healing": "6d10"
+      },
+      {
+        "level": 17,
+        "Ability": "Axe's Embrace",
+        "Description": "Regain health when you successfully land a critical hit.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 18,
+        "Ability": "Elemental Surge",
+        "Description": "Your elemental attacks have increased range.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Master of Elements",
+        "Description": "Gain a bonus to damage when using elemental attacks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Switch Axe's Mastery",
+        "Description": "Make a powerful attack that deals massive damage.",
+        "Damage or Healing": "7d10"
+      }
+    ],
+    "Semi-Actions": [
+      {
+        "level": 1,
+        "Ability": "Quick Shift",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 2,
+        "Ability": "Axe Guard",
+        "Description": "Use your axe defensively to block an incoming attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 3,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Axe's Defense",
+        "Description": "Gain a temporary bonus to defense while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 5,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Axe's Vigilance",
+        "Description": "Gain advantage on saving throws against area effects while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 7,
+        "Ability": "Quick Recovery",
+        "Description": "Regain your composure, allowing you to reroll a failed defense check.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Axe's Aid",
+        "Description": "Your axe can assist you in your next action.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 9,
+        "Ability": "Axe's Awareness",
+        "Description": "Gain a +2 to perception checks while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Tactical Maneuver",
+        "Description": "Shift your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 11,
+        "Ability": "Axe's Guidance",
+        "Description": "Your axe provides you with tactical advice, granting advantage on your next roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Axe's Evasion",
+        "Description": "Gain advantage on saving throws against area effects while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Shift",
+        "Description": "Change your position to gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Axe's Defense",
+        "Description": "Your axe can shield you from one attack per turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 15,
+        "Ability": "Axe Guard",
+        "Description": "Gain a temporary bonus to your armor class while in axe mode.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Grounded Defense",
+        "Description": "Brace yourself, gaining a +2 to defense rolls until your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Battlefield Awareness",
+        "Description": "Gain a +2 to initiative rolls and perception checks.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Axe's Vigilance",
+        "Description": "Your axe warns you of incoming attacks, granting advantage on defense rolls.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 19,
+        "Ability": "Shielded Stance",
+        "Description": "Use your switch axe defensively, gaining a temporary bonus to your armor class.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 20,
+        "Ability": "Switch Axe's Embrace",
+        "Description": "Gain advantage on your next attack roll after successfully defending against an attack.",
+        "Damage or Healing": null
+      }
+    ],
+    "Bonus Actions": [
+      {
+        "level": 1,
+        "Ability": "Guard Stance",
+        "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+        "Damage or Healing": "20"
+      },
+      {
+        "level": 2,
+        "Ability": "Quick Thrust",
+        "Description": "Make a quick attack that deals half damage but can be used twice in one turn.",
+        "Damage or Healing": "Half damage"
+      },
+      {
+        "level": 3,
+        "Ability": "Battle Cry",
+        "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 4,
+        "Ability": "Second Wind",
+        "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+        "Damage or Healing": "1d10"
+      },
+      {
+        "level": 5,
+        "Ability": "Focus",
+        "Description": "Gain advantage on your next attack roll.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 6,
+        "Ability": "Power Surge",
+        "Description": "Increase your damage by 1d4 for your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 7,
+        "Ability": "Tactical Retreat",
+        "Description": "Move away from an enemy without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 8,
+        "Ability": "Rallying Shout",
+        "Description": "Heal an ally for 1d6 health within 10 feet.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 9,
+        "Ability": "Adrenaline Rush",
+        "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 10,
+        "Ability": "Elemental Infusion",
+        "Description": "Temporarily imbue your switch axe with elemental energy, adding 1d4 elemental damage to your next attack.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 11,
+        "Ability": "Swift Recovery",
+        "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 12,
+        "Ability": "Inspiring Presence",
+        "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 13,
+        "Ability": "Quick Defense",
+        "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 14,
+        "Ability": "Fury Unleashed",
+        "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+        "Damage or Healing": "1d6"
+      },
+      {
+        "level": 15,
+        "Ability": "Cunning Action",
+        "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 16,
+        "Ability": "Elemental Shield",
+        "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 17,
+        "Ability": "Heroic Stand",
+        "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+        "Damage or Healing": null
+      },
+      {
+        "level": 18,
+        "Ability": "Rallying Call",
+        "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+        "Damage or Healing": "Equal to your level"
+      },
+      {
+        "level": 19,
+        "Ability": "Surge of Energy",
+        "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+        "Damage or Healing": "1d4"
+      },
+      {
+        "level": 20,
+        "Ability": "Switch Axe's Legacy",
+        "Description": "Empower your next attack, allowing it to deal an additional 1d6 damage and inflict a bleeding effect (1d4 damage at the start of their next turn).",
+        "Damage or Healing": "1d6 + 1d4"
+      }
+    ]
+  },
+  
+    "HuntingHorn": {
+      "Passives": [
+        {
+          "level": 1,
+          "Ability": "Melodic Resonance",
+          "Description": "Your attacks deal an additional 1d4 damage when you play a song.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 2,
+          "Ability": "Buffing Harmony",
+          "Description": "Allies within 10 feet gain a +1 bonus to attack rolls when you play a song.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 3,
+          "Ability": "Healing Melody",
+          "Description": "When you play a song, you can heal an ally for 1d6 health.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 4,
+          "Ability": "Resonant Echo",
+          "Description": "Your songs last an additional turn before needing to be re-cast.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 5,
+          "Ability": "Inspiring Performance",
+          "Description": "Gain advantage on performance checks and inspire allies, granting them a +1 to saving throws.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Battlefield Awareness",
+          "Description": "Gain a +2 bonus to initiative rolls while wielding the Hunting Horn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 7,
+          "Ability": "Song of Defense",
+          "Description": "Allies gain a +1 bonus to their armor class while you are playing a song.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 8,
+          "Ability": "Adrenaline Rush",
+          "Description": "Once per battle, gain an extra action after successfully playing a song.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 9,
+          "Ability": "Harmonic Shield",
+          "Description": "Gain a temporary shield that absorbs 10 damage after playing a song.",
+          "Damage or Healing": "10"
+        },
+        {
+          "level": 10,
+          "Ability": "Elemental Infusion",
+          "Description": "Your songs can grant temporary elemental damage bonuses to allies (1d4).",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 11,
+          "Ability": "Resilient Spirit",
+          "Description": "Gain temporary hit points equal to your level after successfully playing a song.",
+          "Damage or Healing": "Equal to your level"
+        },
+        {
+          "level": 12,
+          "Ability": "Finesse Fighter",
+          "Description": "Use your Dexterity instead of Strength for attack and damage rolls with the Hunting Horn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Tactical Fighter",
+          "Description": "Gain a +2 bonus to attack rolls against enemies that are flanked.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 14,
+          "Ability": "Aural Mastery",
+          "Description": "Your songs can affect enemies, imposing disadvantage on their next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 15,
+          "Ability": "Crescendo",
+          "Description": "Each consecutive successful attack increases your damage by 1 (stacking up to 3 times).",
+          "Damage or Healing": "+1 per hit (up to 3 times)"
+        },
+        {
+          "level": 16,
+          "Ability": "Harmonious Recovery",
+          "Description": "Regain 1d4 health at the start of your turn if you have played a song in the previous turn.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 17,
+          "Ability": "Duelist's Focus",
+          "Description": "Gain advantage on attack rolls against a single target for one turn after playing a song.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 18,
+          "Ability": "Song of the Ancients",
+          "Description": "Your songs can grant temporary hit points equal to your level to allies.",
+          "Damage or Healing": "Equal to your level"
+        },
+        {
+          "level": 19,
+          "Ability": "Echoing Melody",
+          "Description": "Your songs can be heard from twice the normal distance, allowing allies to benefit from them even if they are further away.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 20,
+          "Ability": "Warrior's Endurance",
+          "Description": "Regain 1d4 health at the start of your turn if you have taken damage in the previous turn.",
+          "Damage or Healing": "1d4"
+        }
+      ],
+      "Actions": [
+        {
+          "level": 1,
+          "Ability": "Power Chord",
+          "Description": "Strike the horn to deal damage and create a shockwave that knocks enemies back.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 2,
+          "Ability": "Healing Song",
+          "Description": "Play a soothing melody that heals all allies within 10 feet for 1d6 health.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 3,
+          "Ability": "Buffing Melody",
+          "Description": "Play a song that grants allies within 10 feet a +1 bonus to attack rolls for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 4,
+          "Ability": "Crescendo Strike",
+          "Description": "Make a powerful attack that deals double damage on a critical hit and plays a song.",
+          "Damage or Healing": "Double damage"
+        },
+        {
+          "level": 5,
+          "Ability": "Resonant Blast",
+          "Description": "Create a sonic wave that deals damage to all enemies in a cone in front of you.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Defensive Tune",
+          "Description": "Play a song that grants allies within 10 feet a +1 bonus to their armor class for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 7,
+          "Ability": "Elemental Harmony",
+          "Description": "Infuse your song with elemental energy, dealing an additional 1d4 elemental damage to your next attack.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 8,
+          "Ability": "Whirlwind Melody",
+          "Description": "Spin and play a song that deals damage to all adjacent enemies.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 9,
+          "Ability": "Stunning Tune",
+          "Description": "Play a melody that has a chance to stun enemies within 10 feet for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 10,
+          "Ability": "Aerial Performance",
+          "Description": "Jump into the air and play a song that grants you advantage on your next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 11,
+          "Ability": "Echoing Song",
+          "Description": "Play a song that reverberates, allowing you to heal an ally for 1d4 health.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 12,
+          "Ability": "Fury of the Horn",
+          "Description": "Make a series of rapid strikes that deal damage to all adjacent enemies.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Crescent Melody",
+          "Description": "A sweeping attack that deals damage to all enemies in a 180-degree arc while playing a song.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 14,
+          "Ability": "Grappling Tune",
+          "Description": "Attempt to grapple an enemy while playing a song, dealing damage if successful.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 15,
+          "Ability": "Final Note",
+          "Description": "Make a desperate attack that deals double damage but leaves you vulnerable (disadvantage on next defense roll).",
+          "Damage or Healing": "Double damage"
+        },
+        {
+          "level": 16,
+          "Ability": "Harmonic Burst",
+          "Description": "Release a wave of sound that deals damage to all enemies in a small radius.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Song of Recovery",
+          "Description": "Play a song that allows you to regain a small amount of health (1d4) for each ally within 10 feet.",
+          "Damage or Healing": "1d4 per ally"
+        },
+        {
+          "level": 18,
+          "Ability": "Resonant Strike",
+          "Description": "Make an attack that deals additional damage based on the number of allies within 10 feet.",
+          "Damage or Healing": "Variable"
+        },
+        {
+          "level": 19,
+          "Ability": "Elemental Infusion",
+          "Description": "Infuse your attack with elemental energy, dealing an additional 1d4 elemental damage.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 20,
+          "Ability": "Harmonic Shield",
+          "Description": "Create a temporary barrier that absorbs damage for one turn after playing a song.",
+          "Damage or Healing": null
+        }
+      ],
+      "Semi-Actions": [
+        {
+          "level": 1,
+          "Ability": "Quick Recovery",
+          "Description": "Use a moment to regain your composure, allowing you to reroll a failed defense check.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 2,
+          "Ability": "Tactical Maneuver",
+          "Description": "Shift your position to gain advantage on your next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 3,
+          "Ability": "Grappling Maneuver",
+          "Description": "Attempt to grapple an enemy and deal damage if successful.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 4,
+          "Ability": "Disrupting Tune",
+          "Description": "Play a melody that interrupts an enemy's spellcasting, forcing them to make a concentration check.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 5,
+          "Ability": "Momentum Shift",
+          "Description": "Change your stance to gain a temporary bonus to your next attack based on your movement.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Precision Strike",
+          "Description": "Focus your attack to bypass an enemy's defenses, ignoring their armor for this attack.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 7,
+          "Ability": "Defensive Retreat",
+          "Description": "Move away from an enemy while gaining a temporary boost to your defense.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 8,
+          "Ability": "Staggering Note",
+          "Description": "Play a quick melody that causes the enemy to lose their next action.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 9,
+          "Ability": "Elemental Recall",
+          "Description": "Call back elemental energy, allowing you to regain a small amount of health (1d4).",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 10,
+          "Ability": "Adrenaline Surge",
+          "Description": "Gain a temporary boost to your speed for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 11,
+          "Ability": "Counter Melody",
+          "Description": "If an enemy misses an attack against you, play a quick tune to make a free attack in response.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 12,
+          "Ability": "Grapple and Strike",
+          "Description": "Attempt to grapple an enemy and deal damage simultaneously.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Tactical Retreat",
+          "Description": "Move away from an enemy without provoking attacks of opportunity.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 14,
+          "Ability": "Disarm Attempt",
+          "Description": "Attempt to knock a weapon from an enemy's hand with a precise strike.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 15,
+          "Ability": "Quick Shift",
+          "Description": "Change your position to gain advantage on your next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 16,
+          "Ability": "Fist of Defense",
+          "Description": "Use your Hunting Horn to create a temporary barrier that absorbs damage for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Battlefield Awareness",
+          "Description": "Gain a +2 to initiative rolls and perception checks while wielding the Hunting Horn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 18,
+          "Ability": "Grounded Defense",
+          "Description": "Take a moment to brace yourself, gaining a +2 to defense rolls until your next turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 19,
+          "Ability": "Shielded Stance",
+          "Description": "Use your Hunting Horn defensively, gaining a temporary bonus to your armor class.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 20,
+          "Ability": "Horn's Embrace",
+          "Description": "Gain advantage on your next attack roll after successfully defending against an attack.",
+          "Damage or Healing": null
+        }
+      ],
+      "BonusActions": [
+        {
+          "level": 1,
+          "Ability": "Guard Stance",
+          "Description": "Gain a temporary shield that absorbs 20 damage for one turn.",
+          "Damage or Healing": "20"
+        },
+        {
+          "level": 2,
+          "Ability": "Quick Melody",
+          "Description": "Play a quick tune that deals half damage but can be used twice in one turn.",
+          "Damage or Healing": "Half damage"
+        },
+        {
+          "level": 3,
+          "Ability": "Battle Cry",
+          "Description": "Inspire allies, granting them +1 to attack rolls for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 4,
+          "Ability": "Second Wind",
+          "Description": "Regain a small amount of health (1d10) as a surge of adrenaline kicks in.",
+          "Damage or Healing": "1d10"
+        },
+        {
+          "level": 5,
+          "Ability": "Focus",
+          "Description": "Gain advantage on your next attack roll.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 6,
+          "Ability": "Power Surge",
+          "Description": "Increase your damage by 1d4 for your next attack.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 7,
+          "Ability": "Rallying Shout",
+          "Description": "Heal an ally for 1d6 health within 10 feet.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 8,
+          "Ability": "Adrenaline Rush",
+          "Description": "Gain an extra action for this turn, but you cannot use it to attack.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 9,
+          "Ability": "Elemental Infusion",
+          "Description": "Temporarily imbue your Hunting Horn with elemental energy, adding 1d4 elemental damage to your next attack.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 10,
+          "Ability": "Swift Recovery",
+          "Description": "Regain a small amount of stamina, allowing you to recover from a minor status effect.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 11,
+          "Ability": "Inspiring Presence",
+          "Description": "Grant an ally within 10 feet an additional action on their next turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 12,
+          "Ability": "Quick Defense",
+          "Description": "Gain a temporary +2 to your defense rolls until the start of your next turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 13,
+          "Ability": "Fury Unleashed",
+          "Description": "For one turn, your attacks deal an additional 1d6 damage.",
+          "Damage or Healing": "1d6"
+        },
+        {
+          "level": 14,
+          "Ability": "Cunning Action",
+          "Description": "Use your quick reflexes to reposition yourself without provoking attacks of opportunity.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 15,
+          "Ability": "Elemental Shield",
+          "Description": "Create a temporary barrier that absorbs elemental damage for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 16,
+          "Ability": "Heroic Stand",
+          "Description": "Gain advantage on saving throws against being knocked prone for one turn.",
+          "Damage or Healing": null
+        },
+        {
+          "level": 17,
+          "Ability": "Rallying Call",
+          "Description": "Boost the morale of your allies, granting them temporary hit points equal to your level.",
+          "Damage or Healing": "Equal to your level"
+        },
+        {
+          "level": 18,
+          "Ability": "Surge of Energy",
+          "Description": "Instantly regain a small amount of health (1d4) and gain a +1 to your next attack roll.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 19,
+          "Ability": "Lasting Impact",
+          "Description": "Your next attack leaves a lingering effect, causing the target to take 1d4 damage at the start of their next turn.",
+          "Damage or Healing": "1d4"
+        },
+        {
+          "level": 20,
+          "Ability": "Horn of the Ancients",
+          "Description": "Empower your next attack, allowing it to deal an additional 1d6 damage and inflict a debuff that reduces the target's attack rolls by 1 for one turn.",
+          "Damage or Healing": "1d6"
+        }
+      ]
+    }
+}

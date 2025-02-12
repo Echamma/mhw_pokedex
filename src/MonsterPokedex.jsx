@@ -3,7 +3,9 @@
 const MonsterPokedex = () =>
 {
     return(
-        <div className='bg-[url(`./assets/diablo.jpg`)] bg-image snap-center'></div>
+        <div className="snap-center">
+            <div className='diablo bg-no-repeat h-screen bg-cover'></div>
+        </div>
     )
 }
 

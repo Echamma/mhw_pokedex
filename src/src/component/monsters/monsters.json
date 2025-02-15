@@ -1,0 +1,1174 @@
+{
+    "monsters": [
+        {
+            "name": "Rathalos",
+            "type": "Flying Wyvern",
+            "description": "The King of the Skies. A powerful and majestic flying wyvern, Rathalos is a fierce predator known for its fiery breath, sharp talons, and incredible aerial abilities. It is a highly territorial monster, fiercely protective of its domain and its mate, Rathian. Rathalos is a formidable opponent, and hunters must be well-prepared to face its fiery attacks and aerial dominance."
+        },
+        {
+          "name": "Barnos",
+          "type": "Small Monster",
+          "description": "A small, bat-like creature that often inhabits caves and dark areas. They are known for their annoying habit of swooping down and attacking hunters, often causing status ailments like paralysis."
+        },
+        {
+          "name": "Boaboa",
+          "type": "Small Monster",
+          "description": "Small, furry creatures that inhabit cold, snowy regions. They are relatively docile and often hunted for their pelts, which are used to make warm clothing."
+        },
+        {
+          "name": "Boggi",
+          "type": "Small Monster",
+          "description": "Small, bird-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion."
+        },
+        {
+          "name": "Bombadgy",
+          "type": "Small Monster",
+          "description": "Small, rodent-like creatures that are known for their explosive droppings. They often inhabit volcanic regions and can be a nuisance to hunters."
+        },
+        {
+          "name": "Canyne",
+          "type": "Small Monster",
+          "description": "Small, dog-like creatures that are often domesticated by hunters and used as hunting companions. They are intelligent and loyal, and can be a valuable asset on hunts."
+        },
+        {
+          "name": "Cortos",
+          "type": "Small Monster",
+          "description": "Small, insect-like creatures that are often found in forests and jungles. They are known for their sharp claws and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Gajalaka",
+          "type": "Small Monster",
+          "description": "Small, humanoid creatures that are often found in tribes. They are intelligent and can be a threat to hunters if they are provoked."
+        },
+        {
+          "name": "Gajau",
+          "type": "Small Monster",
+          "description": "Small, fish-like creatures that are often found in swamps and rivers. They are aggressive and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Gastodon",
+          "type": "Small Monster",
+          "description": "Small, herbivorous creatures that are often found in herds. They are relatively docile but can be dangerous if they are cornered."
+        },
+        {
+          "name": "Girros",
+          "type": "Small Monster",
+          "description": "Small, bird-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion."
+        },
+        {
+          "name": "Gowngoat",
+          "type": "Small Monster",
+          "description": "Small, goat-like creatures that are often found in mountainous regions. They are agile and can be difficult to hunt."
+        },
+        {
+          "name": "Grimalkyne",
+          "type": "Small Monster",
+          "description": "Small, feline creatures that are often found in tribes. They are intelligent and can be a threat to hunters if they are provoked."
+        },
+        {
+          "name": "Izuchi",
+          "type": "Small Monster",
+          "description": "Small, bird-like creatures that are often found in forests and jungles. They are known for their sharp claws and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Jagras",
+          "type": "Small Monster",
+          "description": "Small, reptile-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion."
+        },
+        {
+          "name": "Kestodon",
+          "type": "Small Monster",
+          "description": "Small, bird-like creatures that are often found in forests and jungles. They are known for their sharp claws and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Mernos",
+          "type": "Small Monster",
+          "description": "Small, bird-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion."
+        },
+        {
+          "name": "Noios",
+          "type": "Small Monster",
+          "description": "Small, insect-like creatures that are often found in forests and jungles. They are known for their sharp claws and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Pyrantula",
+          "type": "Small Monster",
+          "description": "Small, spider-like creatures that are often found in caves and dark areas. They are known for their poisonous bites and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Rachnoid",
+          "type": "Small Monster",
+          "description": "Small, spider-like creatures that are often found in caves and dark areas. They are known for their poisonous bites and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Raphinos",
+          "type": "Small Monster",
+          "description": "Small, bird-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion."
+        },
+        {
+          "name": "Shamos",
+          "type": "Small Monster",
+          "description": "Small, shark-like creatures that are often found in water. They are aggressive and can be a threat to hunters if they are not careful."
+        },
+        {
+          "name": "Wulg",
+          "type": "Small Monster",
+          "description": "Small, wolf-like creatures that are often found in packs. They are intelligent and can be a threat to hunters if they are provoked."
+        },
+        {
+            "name": "Acidic Glavenus",
+            "type": "Brute Wyvern",
+            "description": "A variant of Glavenus known for its highly corrosive saliva.  This saliva constantly drips and trails behind it, leaving a hazardous path. Its tail blade is often coated in this acid, making its attacks even more devastating. It favors hot, volcanic environments."
+          },
+          {
+            "name": "Aknosom",
+            "type": "Bird Wyvern",
+            "description": "A nocturnal bird wyvern known for its distinctive, almost comical, appearance.  It has a large, brightly colored crest and a habit of sleeping upside down, resembling a bat. It's surprisingly agile and capable of breathing blasts of ice."
+          },
+          {
+            "name": "Almudron",
+            "type": "Leviathan",
+            "description": "A mud-manipulating leviathan that creates elaborate, solidified mud constructs. It can shape the mud into weapons, shields, and even a massive, humanoid form. Almudron is highly territorial and fiercely protective of its chosen habitat."
+          },
+          {
+            "name": "Magma Almudron",
+            "type": "Leviathan",
+            "description": "A variant of Almudron that inhabits volcanic regions. It uses magma instead of mud, creating molten constructs that are even more dangerous than the original. These magma creations can explode on impact, adding another layer of threat."
+          },
+          {
+            "name": "Anjanath",
+            "type": "Brute Wyvern",
+            "description": "A large, aggressive brute wyvern characterized by its prominent nasal crest. It's a powerful predator with a fiery breath attack.  When enraged, Anjanath stands on its hind legs and flares its crest, significantly increasing its attack power and range."
+          },
+          {
+            "name": "Fulgur Anjanath",
+            "type": "Brute Wyvern",
+            "description": "A variant of Anjanath that channels electricity instead of fire.  Its attacks are infused with lightning, and it can generate powerful electrical explosions.  Fulgur Anjanath often inhabits areas with frequent thunderstorms."
+          },
+          {
+            "name": "Apex Arzuros",
+            "type": "Beast",
+            "description": "A powerful, enraged variant of Arzuros.  It's larger and more aggressive than a normal Arzuros, with increased strength and speed.  Its fur is often scarred and matted, signifying its many battles."
+          },
+          {
+            "name": "Apex Diablos",
+            "type": "Flying Wyvern",
+            "description": "An incredibly dangerous variant of Diablos.  It is consumed by rage, making it even more aggressive and unpredictable.  Its horns are larger and more menacing, and its roars are deafening."
+          },
+          {
+            "name": "Apex Rathalos",
+            "type": "Flying Wyvern",
+            "description": "A highly powerful and aggressive variant of Rathalos.  It possesses a burning rage that makes it an even more formidable aerial predator.  Its flames burn hotter, and its aerial maneuvers are even more deadly."
+          },
+          {
+            "name": "Apex Rathian",
+            "type": "Flying Wyvern",
+            "description": "A dangerous variant of Rathian, driven into a furious state.  Its venom is more potent, and its movements are faster and more unpredictable.  It's an even more dangerous opponent than a normal Rathian."
+          },
+          {
+            "name": "Apex Mizutsune",
+            "type": "Leviathan",
+            "description": "A particularly powerful and enraged Mizutsune.  Its movements are even more fluid and graceful, and its water attacks are amplified.  It's a mesmerizing yet deadly opponent."
+          },
+          {
+            "name": "Apex Zinogre",
+            "type": "Fanged Wyvern",
+            "description": "An incredibly powerful variant of Zinogre, overflowing with rage and dragon energy.  Its control over electricity is magnified, and its attacks are devastating.  It's a truly fearsome predator."
+          },
+          {
+            "name": "Banbaro",
+            "type": "Brute Wyvern",
+            "description": "A large, herbivorous brute wyvern with massive antlers.  It's known for its powerful charging attacks, which it often uses to plow through obstacles and even other monsters.  It often gathers debris like rocks and trees onto its antlers, turning them into makeshift weapons and armor."
+          },
+          {
+            "name": "Bazelgeuse",
+            "type": "Flying Wyvern",
+            "description": "A large, explosive flying wyvern that scatters explosive scales wherever it goes. These scales detonate on impact, creating widespread destruction. Bazelgeuse is a highly aggressive and disruptive force, often interrupting hunts with its explosive bombardments."
+          },
+          {
+            "name": "Seething Bazelgeuse",
+            "type": "Flying Wyvern",
+            "description": "A more volatile variant of Bazelgeuse, its scales are in a constant state of near-explosion.  It leaves behind trails of highly unstable explosives, making it an even greater threat than its standard form.  Its attacks are even more explosive and widespread."
+          },
+          {
+            "name": "Beotodus",
+            "type": "Leviathan",
+            "description": "A large, piscine leviathan that inhabits icy environments. It uses its sharp, saw-like blade on its head to cut through ice and snow. Beotodus is an aggressive predator, often ambushing its prey from beneath the ice."
+          },
+          {
+            "name": "Bishaten",
+            "type": "Bird Wyvern",
+            "description": "A crafty and acrobatic bird wyvern. It uses its prehensile tail to grab and throw various objects, including explosive pinecones and paralyzing fruits. Bishaten is known for its unpredictable attack patterns and its ability to adapt to different situations."
+          },
+          {
+            "name": "Blood Orange Bishaten",
+            "type": "Bird Wyvern",
+            "description": "A variant of Bishaten that is even more cunning and aggressive. Its fur is a distinctive blood orange color. It uses a wider variety of projectiles and is more adept at using its tail for both offense and defense."
+          },
+          {
+            "name": "Dodogama",
+            "type": "Brute Wyvern",
+            "description": "A large, docile brute wyvern that is surprisingly powerful. It's known for its love of eating rocks, which it then regurgitates as projectiles. Dodogama is often mistaken for a pushover, but it can be a formidable opponent when provoked."
+          },
+            {
+            "name": "Espinas",
+            "type": "Flying Wyvern",
+            "description": "A thorn-covered flying wyvern known for its poisonous breath and aggressive nature.  Espinas are highly territorial and fiercely defend their domain. Their thorny hide makes them resistant to many attacks."
+          },
+          {
+            "name": "Flaming Espinas",
+            "type": "Flying Wyvern",
+            "description": "A variant of Espinas that is even more dangerous. It combines its poisonous attacks with fiery breath, creating a deadly combination. Flaming Espinas are incredibly aggressive and should be approached with extreme caution."
+          },
+          {
+            "name": "Frostfang Barioth",
+            "type": "Flying Wyvern",
+            "description": "A variant of Barioth that has adapted to even colder environments.  Its icy breath is more potent, and its movements are even more precise. Frostfang Barioth is a master of ice and wind, making it a challenging opponent."
+          },
+          {
+            "name": "Garangolm",
+            "type": "Brute Wyvern",
+            "description": "A large, bulky brute wyvern that incorporates rocks and vegetation into its body, essentially turning itself into a living fortress. It uses this natural armor for both defense and offense, making it a tough and versatile opponent."
+          },
+          {
+            "name": "Goss Harag",
+            "type": "Fanged Beast",
+            "description": "A large, bear-like fanged beast that inhabits snowy mountains.  It's known for its ability to create and wield blades of ice, which it uses in both melee and ranged attacks. Goss Harag is a powerful and relentless hunter."
+          },
+          {
+            "name": "Great Girros",
+            "type": "Fanged Wyvern",
+            "description": "A larger, more powerful Girros. It uses its size and strength to dominate its pack and hunt larger prey.  It also possesses the same paralytic abilities as its smaller counterparts, making it a dangerous foe."
+          },
+          {
+            "name": "Great Izuchi",
+            "type": "Bird Wyvern",
+            "description": "A larger, more dominant Izuchi. It leads packs of smaller Izuchi and is more adept at using its sickle-like claws.  It's a swift and agile predator, capable of coordinated attacks with its pack."
+          },
+          {
+            "name": "Great Jagras",
+            "type": "Fanged Beast",
+            "description": "A large, gluttonous fanged beast known for its massive appetite. It often devours prey whole, its body expanding to accommodate its meal. While generally docile, it becomes aggressive when its territory or food is threatened."
+          },
+          {
+            "name": "Jyuratodus",
+            "type": "Leviathan",
+            "description": "A mud-covered leviathan that inhabits swampy areas. It coats itself in mud for protection and camouflage. Jyuratodus is a skilled swimmer and can launch globs of mud at its prey."
+          },
+          {
+            "name": "Kulu-Ya-Ku",
+            "type": "Bird Wyvern",
+            "description": "A small, opportunistic bird wyvern known for its intelligence and scavenging habits. It often steals eggs from other monsters and uses rocks as weapons and shields. Kulu-Ya-Ku is surprisingly agile and can be a tricky opponent."
+          },
+          {
+            "name": "Legiana",
+            "type": "Flying Wyvern",
+            "description": "A graceful, ice-themed flying wyvern that inhabits cold, mountainous regions. It's known for its ability to control ice and create freezing blasts of air. Legiana is a skilled aerial hunter and a formidable opponent."
+          },
+          {
+            "name": "Shrieking Legiana",
+            "type": "Flying Wyvern",
+            "description": "A more aggressive variant of Legiana that is even more adept at manipulating ice. Its icy attacks are stronger and more widespread, and its shrieks can freeze the air itself. Shrieking Legiana is a dangerous predator in any icy environment."
+          },
+          {
+            "name": "Leshen",
+            "type": "Unknown",
+            "description": "A mysterious, ancient creature from another world. Leshen are often found in forests and possess powerful magic. They can control plants and summon creatures to aid them in battle. Leshen are enigmatic and dangerous foes."
+          },
+          {
+            "name": "Ancient Leshen",
+            "type": "Unknown",
+            "description": "A significantly more powerful and ancient version of the Leshen. Its magic is far stronger, and its control over nature is absolute. Ancient Leshen are incredibly rare and represent a significant threat to any hunter."
+          },
+          {
+            "name": "Lunagaron",
+            "type": "Fanged Wyvern",
+            "description": "A fanged wyvern that inhabits cold regions and uses ice to enhance its attacks.  It covers itself in a layer of ice as armor and can unleash freezing blasts.  Lunagaron is a swift and agile hunter."
+          },
+          {
+            "name": "Magnamalo",
+            "type": "Fanged Wyvern",
+            "description": "A fanged wyvern known for its hellfire attacks. It uses a unique energy called Hellfire to enhance its speed, strength, and explosive power. Magnamalo is a fierce and relentless hunter."
+          },
+          {
+            "name": "Scorned Magnamalo",
+            "type": "Fanged Wyvern",
+            "description": "A more powerful and enraged variant of Magnamalo. Its Hellfire is even more intense, and its attacks are more devastating.  Scorned Magnamalo is a truly terrifying opponent."
+          },
+          {
+            "name": "Odogaron",
+            "type": "Fanged Wyvern",
+            "description": "A fast and aggressive fanged wyvern known for its sharp claws and relentless attacks. It's a highly territorial predator and will defend its domain fiercely. Odogaron is a dangerous opponent at close range."
+          },
+          {
+            "name": "Ebony Odogaron",
+            "type": "Fanged Wyvern",
+            "description": "A more powerful variant of Odogaron.  Its attacks are even faster and more vicious, and it's even more aggressive than its standard counterpart.  Ebony Odogaron is a truly formidable predator."
+          },
+          {
+            "name": "Paolumu",
+            "type": "Flying Wyvern",
+            "description": "A large, bat-like flying wyvern that inflates its neck to float and glide. It can also use this inflated neck to unleash powerful blasts of air. Paolumu is a unique and surprisingly agile hunter."
+          },
+          {
+            "name": "Nightshade Paolumu",
+            "type": "Flying Wyvern",
+            "description": "A variant of Paolumu that inhabits darker areas and uses sleep-inducing breath.  It combines its gliding abilities with its ability to lull prey into a slumber, making it a particularly dangerous hunter."
+          },
+          {
+            "name": "Pukei-Pukei",
+            "type": "Bird Wyvern",
+            "description": "A colorful bird wyvern known for its ability to store and expel various substances, including poison, paralysis, and sleep-inducing gas. Pukei-Pukei is a versatile and unpredictable opponent."
+          },
+          {
+            "name": "Coral Pukei-Pukei",
+            "type": "Bird Wyvern",
+            "description": "A variant of Pukei-Pukei that inhabits coral reefs. It stores and expels water instead of poison or other substances. Coral Pukei-Pukei is adapted to aquatic combat and can be a surprising threat."
+          },
+          {
+            "name": "Radobaan",
+            "type": "Brute Wyvern",
+            "description": "A large, bone-covered brute wyvern that rolls around in bones and debris to create a protective armor. It's a slow but powerful monster, capable of devastating charge attacks. Radobaan often cooperates with other monsters."
+          },
+          {
+            "name": "Rakna-Kadaki",
+            "type": "Temnoceran",
+            "description": "A large, spider-like monster that spins webs and uses them to capture prey and create structures. Rakna-Kadaki is a skilled hunter and a formidable opponent, especially when it has its web structures in place."
+          },
+          {
+            "name": "Pyre Rakna-Kadaki",
+            "type": "Temnoceran",
+            "description": "A variant of Rakna-Kadaki that inhabits volcanic regions. It uses magma instead of webbing, creating fiery projectiles and structures. Pyre Rakna-Kadaki is even more aggressive than its standard form and poses a significant threat in volcanic environments."
+          },
+          {
+            "name": "Scarred Yian Garuga",
+            "type": "Bird Wyvern",
+            "description": "A Yian Garuga that has survived many battles, evident by the numerous scars it bears. It's even more aggressive and unpredictable than a normal Yian Garuga, with enhanced speed and power. Scarred Yian Garuga is a formidable opponent for even experienced hunters."
+          },
+          {
+            "name": "Somnacanth",
+            "type": "Leviathan",
+            "description": "A graceful, hypnotic leviathan that uses its bioluminescent scales to induce sleep in its prey. It can also release sleep-inducing powder, making it a master of stealth and ambush tactics. Somnacanth is a mesmerizing yet dangerous creature."
+          },
+          {
+            "name": "Aurora Somnacanth",
+            "type": "Leviathan",
+            "description": "A variant of Somnacanth that inhabits colder regions. Its hypnotic abilities are enhanced by the cold, and its scales emit an even more mesmerizing glow. Aurora Somnacanth is a master of illusions and can easily confuse its prey."
+          },
+          {
+            "name": "Tetranadon",
+            "type": "Amphibian",
+            "description": "A large, frog-like amphibian that inflates its body with air to increase its size and power. It's known for its powerful tackles and its ability to spit globs of mud. Tetranadon is a surprisingly agile creature despite its size."
+          },
+          {
+            "name": "Tobi-Kadachi",
+            "type": "Fanged Wyvern",
+            "description": "A fast and agile fanged wyvern that uses electricity in its attacks. It glides through the trees, using its electricity to enhance its speed and agility. Tobi-Kadachi is a formidable predator in forested environments."
+          },
+          {
+            "name": "Viper Tobi-Kadachi",
+            "type": "Fanged Wyvern",
+            "description": "A variant of Tobi-Kadachi that combines its electric attacks with poison. Its attacks are even more dangerous, as they inflict both shock and poison. Viper Tobi-Kadachi is a deadly predator in any environment."
+          },
+          {
+            "name": "Tzitzi-Ya-Ku",
+            "type": "Bird Wyvern",
+            "description": "A bird wyvern that uses its unique vocalizations to disorient and confuse its prey. It can also use these vocalizations to communicate with other Tzitzi-Ya-Ku, coordinating their attacks. Tzitzi-Ya-Ku is a cunning and strategic hunter."
+          },
+          {
+            "name": "Violet Mizutsune",
+            "type": "Leviathan",
+            "description": "A rare and beautiful variant of Mizutsune. Its movements are even more fluid and graceful than a standard Mizutsune, and its water attacks are infused with a mesmerizing energy. Violet Mizutsune is a captivating and dangerous creature."
+          },
+          {
+            "name": "Crimson Glow Valstrax",
+            "type": "Elder Dragon",
+            "description": "A variant of Valstrax that is even more powerful and aggressive. Its wings glow with an intense crimson light, and its attacks are infused with even more potent dragon energy. Crimson Glow Valstrax is a terrifying force of nature."
+          },
+          {
+            "name": "Gaismagorm",
+            "type": "Elder Dragon",
+            "description": "A massive, ancient Elder Dragon that embodies destruction and chaos. It's said to be the source of many natural disasters. Gaismagorm is an incredibly powerful monster, capable of unleashing devastating attacks that can reshape the landscape."
+          },
+          {
+            "name": "Kulve Taroth",
+            "type": "Elder Dragon",
+            "description": "A magnificent Elder Dragon covered in gold. It's known for its ability to manipulate metal and its desire for treasure. Kulve Taroth is a powerful and elusive creature, often sought after for its valuable golden armor."
+          },
+          {
+            "name": "Malzeno",
+            "type": "Elder Dragon",
+            "description": "An elegant yet deadly Elder Dragon associated with the night.  It possesses the ability to steal the life force of other creatures, using it to fuel its own power and heal its wounds. Malzeno is a cunning and elusive predator."
+          },
+          {
+            "name": "Primordial Malzeno",
+            "type": "Elder Dragon",
+            "description": "A more ancient and powerful form of Malzeno. It's even more adept at manipulating life force and its attacks are more devastating. Primordial Malzeno is a truly terrifying opponent."
+          },
+          {
+            "name": "Namielle",
+            "type": "Elder Dragon",
+            "description": "An aquatic Elder Dragon that controls water and electricity. It's a graceful and powerful swimmer, capable of generating massive waves and powerful electrical blasts. Namielle is a force to be reckoned with in any aquatic environment."
+          },
+          {
+            "name": "Nergigante",
+            "type": "Elder Dragon",
+            "description": "A ferocious Elder Dragon known for its insatiable hunger and its ability to regenerate from any wound. It's a relentless predator, constantly seeking out powerful prey to consume. Nergigante is a force of destruction, leaving a trail of devastation wherever it goes."
+          },
+          {
+            "name": "Ruiner Nergigante",
+            "type": "Elder Dragon",
+            "description": "A more powerful and aggressive form of Nergigante. Its regeneration is even stronger, and its attacks are more devastating. Ruiner Nergigante is a true force of nature, capable of destroying entire ecosystems."
+          },
+          {
+            "name": "Risen Chameleos",
+            "type": "Elder Dragon",
+            "description": "An empowered Chameleos that has overcome its weaknesses. It's even more adept at using its camouflage and poison, making it an incredibly dangerous opponent. Risen Chameleos is a master of deception and should not be underestimated."
+          },
+          {
+            "name": "Risen Crimson Glow Valstrax",
+            "type": "Elder Dragon",
+            "description": "An even more powerful version of Crimson Glow Valstrax. Its control over dragon energy is amplified, and its attacks are even more devastating. Risen Crimson Glow Valstrax is a truly terrifying opponent."
+          },
+          {
+            "name": "Risen Kushala Daora",
+            "type": "Elder Dragon",
+            "description": "An empowered Kushala Daora that has regained its full power. Its control over wind is absolute, and its attacks are more devastating than ever. Risen Kushala Daora is a force of nature, capable of creating devastating storms."
+          },
+          {
+            "name": "Risen Shagaru Magala",
+            "type": "Elder Dragon",
+            "description": "An empowered Shagaru Magala that has overcome its Frenzy virus. It's even more powerful and intelligent than before, making it a truly formidable opponent. Risen Shagaru Magala is a threat to all life."
+          },
+          {
+            "name": "Risen Teostra",
+            "type": "Elder Dragon",
+            "description": "An empowered Teostra that has regained its full power. Its control over fire is absolute, and its attacks are more devastating than ever. Risen Teostra is a force of destruction, capable of unleashing fiery infernos."
+          },
+          {
+            "name": "Safi'jiiva",
+            "type": "Elder Dragon",
+            "description": "A powerful Elder Dragon that absorbs energy from its surroundings. It's capable of adapting to any environment and unleashing devastating attacks. Safi'jiiva is a threat to all life and must be stopped at all costs."
+          },
+          {
+            "name": "Shara Ishvalda",
+            "type": "Elder Dragon",
+            "description": "A mysterious and powerful Elder Dragon that dwells deep beneath the earth. It is known for its ability to control vibrations and manipulate the earth itself. Shara Ishvalda is a formidable opponent, capable of creating earthquakes and manipulating the terrain to its advantage."
+          },
+          {
+            "name": "Thunder Serpent Narwa",
+            "type": "Elder Dragon",
+            "description": "A serpentine Elder Dragon that controls thunder and lightning. It is a powerful and agile creature, capable of unleashing devastating electrical attacks. Thunder Serpent Narwa is a formidable opponent, especially in stormy environments."
+          },
+          {
+            "name": "Narwa the Allmother",
+            "type": "Elder Dragon",
+            "description": "The ultimate form of Narwa, after absorbing enough energy. It combines the power of thunder and lightning with the ability to control the weather itself. Narwa the Allmother is a god-like being, capable of unleashing devastating attacks that can reshape the world."
+          },
+          {
+            "name": "Vaal Hazak",
+            "type": "Elder Dragon",
+            "description": "An Elder Dragon that controls the Effluvium, a deadly mist that rots flesh and weakens its prey. It is a terrifying creature, capable of inflicting debilitating status ailments. Vaal Hazak is a dangerous opponent, especially for those unprepared for its unique abilities."
+          },
+          {
+            "name": "Blackveil Vaal Hazak",
+            "type": "Elder Dragon",
+            "description": "A variant of Vaal Hazak that is even more powerful and dangerous. Its Effluvium is more potent, and it is capable of controlling it with greater precision. Blackveil Vaal Hazak is a truly terrifying opponent, capable of inflicting devastating status ailments."
+          },
+          {
+            "name": "Velkhana",
+            "type": "Elder Dragon",
+            "description": "An elegant and powerful Elder Dragon that controls ice and cold. It is a graceful and agile creature, capable of creating massive ice structures and unleashing freezing blasts of air. Velkhana is a formidable opponent, especially in cold environments."
+          },
+          {
+            "name": "Wind Serpent Ibushi",
+            "type": "Elder Dragon",
+            "description": "A serpentine Elder Dragon that controls wind and storms. It is a powerful and agile creature, capable of creating devastating tornadoes and unleashing powerful gusts of wind. Wind Serpent Ibushi is a formidable opponent, especially in stormy environments."
+          },
+          {
+            "name": "Xeno'jiiva",
+            "type": "Elder Dragon",
+            "description": "A mysterious and powerful Elder Dragon that absorbs energy from its surroundings. It is a constantly evolving creature, capable of adapting to any environment and unleashing devastating attacks. Xeno'jiiva is a threat to all life and must be stopped at all costs."
+          },
+          {
+            "name": "Zorah Magdaros",
+            "type": "Elder Dragon",
+            "description": "A colossal Elder Dragon that is more like a moving volcano than a living creature. It is incredibly large and slow, but its sheer size and power make it a force to be reckoned with. Zorah Magdaros is a threat to all life, and its movements can cause widespread destruction."
+          },
+          {
+            "name": "Konchu",
+            "type": "Small Monster",
+            "description": "Small, insectoid creatures that are often found in large swarms. They are known for their sharp claws and their ability to spit acid. Konchu can be a nuisance to hunters, especially when they are in large numbers."
+          },
+          {
+            "name": "Larinoth",
+            "type": "Small Monster",
+            "description": "Small, bird-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion. Larinoth are not particularly dangerous on their own, but they can be a threat when they are in large numbers."
+          },
+          {
+            "name": "Maccao",
+            "type": "Small Monster",
+            "description": "Small, monkey-like creatures that are often found in forests and jungles. They are known for their agility and their ability to use their tails as weapons. Maccao can be a threat to hunters if they are not careful."
+          },
+          {
+            "name": "Moofah",
+            "type": "Small Monster",
+            "description": "Small, furry creatures that inhabit cold, snowy regions. They are relatively docile and are often hunted for their pelts, which are used to make warm clothing. Moofah are not particularly dangerous, but they can be a nuisance if they are disturbed."
+          },
+          {
+            "name": "Zamite",
+            "type": "Small Monster",
+            "description": "Small, amphibious creatures that are often found in water. They are known for their sharp teeth and their ability to swim quickly. Zamite can be a threat to hunters if they are not careful, especially when they are in large numbers."
+          },
+          {
+            "name": "Ahtal-Ka",
+            "type": "Unknown",
+            "description": "A mysterious and powerful creature that is said to be the creator of the Ancient Civilization. It is a large, insectoid creature that is capable of controlling machines and manipulating energy. Ahtal-Ka is a formidable opponent, and its motives are unknown."
+          },
+          {
+            "name": "Astalos",
+            "type": "Flying Wyvern",
+            "description": "A large, electric flying wyvern that is known for its speed and agility. It is a formidable opponent, capable of unleashing powerful electrical attacks. Astalos is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Boltreaver Astalos",
+            "type": "Flying Wyvern",
+            "description": "A variant of Astalos that is even more powerful and dangerous. It is capable of controlling electricity with even greater precision, and its attacks are even more devastating. Boltreaver Astalos is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Bloodbath Diablos",
+            "type": "Flying Wyvern",
+            "description": "A variant of Diablos that is even more aggressive and dangerous. It is larger and more powerful than a normal Diablos, and its horns are even more menacing. Bloodbath Diablos is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Crystalbeard Uragaan",
+            "type": "Brute Wyvern",
+            "description": "A variant of Uragaan that is covered in crystals. These crystals make it even more resistant to attacks, and it is also capable of using them as weapons. Crystalbeard Uragaan is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Deadeye Yian Garuga",
+            "type": "Bird Wyvern",
+            "description": "A variant of Yian Garuga that has lost one of its eyes. It is even more aggressive and unpredictable than a normal Yian Garuga, and it is also more difficult to predict its attacks. Deadeye Yian Garuga is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Dreadking Rathalos",
+            "type": "Flying Wyvern",
+            "description": "A variant of Rathalos that is even more powerful and dangerous. It is larger and more aggressive than a normal Rathalos, and its flames are even more potent. Dreadking Rathalos is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Dreadqueen Rathian",
+            "type": "Flying Wyvern",
+            "description": "A variant of Rathian that is even more powerful and dangerous. It is larger and more aggressive than a normal Rathian, and its venom is even more potent. Dreadqueen Rathian is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Gammoth",
+            "type": "Elder Dragon",
+            "description": "A large, elephant-like Elder Dragon that inhabits snowy regions. It is a powerful and docile creature, but it can be dangerous if it is provoked. Gammoth is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Elderfrost Gammoth",
+            "type": "Elder Dragon",
+            "description": "A variant of Gammoth that is even more powerful and dangerous. It is larger and more aggressive than a normal Gammoth, and its ice attacks are even more potent. Elderfrost Gammoth is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Glavenus",
+            "type": "Brute Wyvern",
+            "description": "A large, fire-breathing brute wyvern that is known for its sharp tail. It is a formidable opponent, capable of unleashing powerful fire attacks. Glavenus is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Hellblade Glavenus",
+            "type": "Brute Wyvern",
+            "description": "A variant of Glavenus that is even more powerful and dangerous. Its tail is even sharper, and its fire attacks are even more potent. Hellblade Glavenus is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Gore Magala",
+            "type": "Unknown",
+            "description": "A mysterious and powerful creature that is said to be the harbinger of the Frenzy virus. It is a large, bat-like creature that is capable of spreading the Frenzy virus to other monsters. Gore Magala is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Chaotic Gore Magala",
+            "type": "Unknown",
+            "description": "A Gore Magala that has succumbed to the Frenzy virus and has lost all control. It is even more aggressive and dangerous than a normal Gore Magala, and it is capable of spreading the Frenzy virus at an alarming rate. Chaotic Gore Magala is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Great Maccao",
+            "type": "Bird Wyvern",
+            "description": "A larger and more powerful Maccao. It is the leader of a Maccao pack, and it is more aggressive and territorial than the smaller Maccao. Great Maccao is a formidable opponent, and it should only be challenged by hunters who are prepared for a tough fight."
+          },
+          {
+            "name": "Grimclaw Tigrex",
+            "type": "Flying Wyvern",
+            "description": "A variant of Tigrex that is even more aggressive and dangerous. It is larger and more powerful than a normal Tigrex, and its roars are even more deafening. Grimclaw Tigrex is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Kecha Wacha",
+            "type": "Bird Wyvern",
+            "description": "A small, monkey-like bird wyvern that is known for its ability to glide. It is a relatively weak monster, but it can be a nuisance to hunters. Kecha Wacha is often found in groups, and it can be a difficult monster to hunt if it is not approached carefully."
+          },
+          {
+            "name": "Ash Kecha Wacha",
+            "type": "Bird Wyvern",
+            "description": "A variant of Kecha Wacha that is even more aggressive and dangerous. It is larger and more powerful than a normal Kecha Wacha, and it is also capable of breathing fire. Ash Kecha Wacha is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Malfestio",
+            "type": "Bird Wyvern",
+            "description": "A large, owl-like bird wyvern that is known for its ability to manipulate dreams. It is a formidable opponent, capable of putting hunters to sleep and then attacking them while they are defenseless. Malfestio is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Nightcloak Malfestio",
+            "type": "Bird Wyvern",
+            "description": "A variant of Malfestio that is even more powerful and dangerous. It is even more adept at manipulating dreams, and it is also capable of using its feathers as weapons. Nightcloak Malfestio is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Mizutsune",
+            "type": "Leviathan",
+            "description": "A beautiful and graceful leviathan that is known for its ability to control water. It is a formidable opponent, capable of unleashing powerful water attacks. Mizutsune is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Soulseer Mizutsune",
+            "type": "Leviathan",
+            "description": "A variant of Mizutsune that is even more powerful and dangerous. It is even more adept at controlling water, and it is also capable of using its bubbles to create illusions. Soulseer Mizutsune is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Molten Tigrex",
+            "type": "Flying Wyvern",
+            "description": "A variant of Tigrex that is even more aggressive and dangerous. It is larger and more powerful than a normal Tigrex, and its roars are even more deafening. Molten Tigrex is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Najarala",
+            "type": "Leviathan",
+            "description": "A large, snake-like leviathan that is known for its ability to constrict its prey. It is a formidable opponent, capable of wrapping itself around hunters and crushing them. Najarala is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Tidal Najarala",
+            "type": "Leviathan",
+            "description": "A variant of Najarala that is even more powerful and dangerous. It is even more adept at constricting its prey, and it is also capable of breathing water. Tidal Najarala is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Nerscylla",
+            "type": "Unknown",
+            "description": "A large, spider-like monster that is known for its ability to use poison. It is a formidable opponent, capable of poisoning hunters with its venomous fangs. Nerscylla is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Shrouded Nerscylla",
+            "type": "Unknown",
+            "description": "A variant of Nerscylla that is even more powerful and dangerous. It is even more adept at using poison, and it is also capable of using its webs to create traps. Shrouded Nerscylla is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Raging Brachydios",
+            "type": "Brute Wyvern",
+            "description": "A variant of Brachydios that is even more aggressive and dangerous. It is larger and more powerful than a normal Brachydios, and its explosions are even more devastating. Raging Brachydios is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Redhelm Arzuros",
+            "type": "Fanged Beast",
+            "description": "A variant of Arzuros that is even more aggressive and dangerous. It is larger and more powerful than a normal Arzuros, and its claws are even sharper. Redhelm Arzuros is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Ruby Basarios",
+            "type": "Flying Wyvern",
+            "description": "A variant of Basarios that is even more aggressive and dangerous. It is larger and more powerful than a normal Basarios, and its explosions are even more devastating. Ruby Basarios is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Rustrazor Ceanataur",
+            "type": "Carapaceon",
+            "description": "A Ceanataur that has specialized in wielding a massive, rusted blade. It's a highly aggressive and skilled hunter, using its oversized weapon with surprising dexterity. Rustrazor Ceanataur is a formidable opponent, especially for those unprepared for its unique fighting style."
+          },
+          {
+            "name": "Seltas",
+            "type": "Neopteron",
+            "description": "A small, insectoid monster that often works in tandem with the Seltas Queen.  It's primarily a support creature, providing assistance to the Queen and defending her from attackers. Seltas themselves are not particularly strong, but their coordinated attacks can be troublesome."
+          },
+          {
+            "name": "Desert Seltas",
+            "type": "Neopteron",
+            "description": "A variant of Seltas adapted to desert environments.  They are often more brightly colored and may have slightly different behaviors than their standard counterparts. They still serve the Desert Seltas Queen."
+          },
+          {
+            "name": "Seltas Queen",
+            "type": "Neopteron",
+            "description": "A large, powerful insectoid monster that rules over a colony of Seltas. It's a formidable opponent, capable of both ranged and melee attacks. The Seltas Queen is the primary threat and the Seltas serve to protect her."
+          },
+          {
+            "name": "Desert Seltas Queen",
+            "type": "Neopteron",
+            "description": "A variant of the Seltas Queen adapted to desert environments.  Likely larger and more resilient than the standard Seltas Queen, she commands the Desert Seltas.  She is a powerful monster and a formidable opponent."
+          },
+          {
+            "name": "Seregios",
+            "type": "Flying Wyvern",
+            "description": "A bird-like flying wyvern known for its sharp, bladed scales. It's an aggressive and agile predator, capable of swift aerial attacks and using its scales as projectiles. Seregios is a formidable opponent, especially for hunters unprepared for its unique weaponry."
+          },
+          {
+            "name": "Silverwind Nargacuga",
+            "type": "Flying Wyvern",
+            "description": "A variant of Nargacuga that is even faster and more agile than its standard form. It leaves behind trails of shimmering dust as it moves, making it difficult to track. Silverwind Nargacuga is a master of stealth and surprise attacks."
+          },
+          {
+            "name": "Snowbaron Lagombi",
+            "type": "Fanged Beast",
+            "description": "A larger and more powerful variant of Lagombi. It's covered in thicker fur and is more adept at navigating icy environments. Snowbaron Lagombi is a formidable opponent, especially for hunters unprepared for its enhanced abilities."
+          },
+          {
+            "name": "Stonefist Hermitaur",
+            "type": "Carapaceon",
+            "description": "A Hermitaur that has specialized in using its oversized claws for both offense and defense. It's a powerful and aggressive creature, capable of delivering devastating blows. Stonefist Hermitaur is a formidable opponent, especially for those who underestimate its strength."
+          },
+          {
+            "name": "Tetsucabra",
+            "type": "Amphibian",
+            "description": "A large, frog-like amphibian known for its powerful jaws and its ability to use rocks as weapons and armor. It's a formidable opponent, capable of both ranged and melee attacks. Tetsucabra is a popular monster among hunters, often sought after for its unique materials."
+          },
+          {
+            "name": "Berserk Tetsucabra",
+            "type": "Amphibian",
+            "description": "A Tetsucabra that has entered a berserk state, becoming even more aggressive and dangerous.  Its attacks are more ferocious and unpredictable. Berserk Tetsucabra is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Drilltusk Tetsucabra",
+            "type": "Amphibian",
+            "description": "A variant of Tetsucabra that uses its tusks to drill through the ground and create traps. It's a cunning and dangerous opponent, capable of using the environment to its advantage. Drilltusk Tetsucabra is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Thunderlord Zinogre",
+            "type": "Fanged Wyvern",
+            "description": "A variant of Zinogre that is even more powerful and adept at controlling electricity.  Its attacks are even more devastating, and its control over thunder is absolute. Thunderlord Zinogre is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Zamtrios",
+            "type": "Amphibian",
+            "description": "A large, amphibious monster that can inflate its body with cold air, turning itself into a rolling, icy boulder. It's a unique and dangerous opponent, capable of both swift movement and powerful icy attacks. Zamtrios is a formidable opponent, especially in cold environments."
+          },
+          {
+            "name": "Tigerstripe Zamtrios",
+            "type": "Amphibian",
+            "description": "A variant of Zamtrios with distinctive tiger stripes.  It may have different behaviors or elemental affinities compared to the standard Zamtrios. It is a formidable opponent."
+          },
+          {
+            "name": "Dah'ren Mohran",
+            "type": "Elder Dragon",
+            "description": "A colossal Elder Dragon that travels through the desert, leaving a trail of destruction in its wake. It is a massive and powerful creature, capable of withstanding even the most powerful attacks. Dah'ren Mohran is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Dalamadur",
+            "type": "Elder Dragon",
+            "description": "A massive, serpentine Elder Dragon that dwells deep within the earth. It is a powerful and ancient creature, capable of manipulating the earth itself. Dalamadur is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Shah Dalamadur",
+            "type": "Elder Dragon",
+            "description": "A more powerful and mature form of Dalamadur. Its scales are more ornate, and its control over the earth is even greater. Shah Dalamadur is a truly terrifying opponent, and it should only be challenged by the most skilled hunters."
+          },
+          {
+            "name": "Gogmazios",
+            "type": "Elder Dragon",
+            "description": "A large, oil-covered Elder Dragon known for its destructive power. It uses the oil to fuel its attacks and to defend itself. Gogmazios is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Nakarkos",
+            "type": "Unknown",
+            "description": "A mysterious creature that collects the bones of other monsters and uses them as armor and weapons. It is a powerful and adaptable opponent, capable of using a wide variety of attacks. Nakarkos is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Oroshi Kirin",
+            "type": "Elder Dragon",
+            "description": "A variant of Kirin that is even more powerful and adept at controlling ice. Its attacks are even more devastating, and its control over the cold is absolute. Oroshi Kirin is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Shagaru Magala",
+            "type": "Elder Dragon",
+            "description": "The evolved form of Gore Magala. It is a powerful and intelligent Elder Dragon, capable of spreading the Frenzy virus to other monsters. Shagaru Magala is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Valstrax",
+            "type": "Elder Dragon",
+            "description": "An incredibly fast and agile Elder Dragon known for its aerial prowess. It uses its unique wings to propel itself at incredible speeds, making it a difficult target to hit. Valstrax is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Altaroth",
+            "type": "Small Monster",
+            "description": "Small, insectoid creatures that are often found in swarms. They are known for their sharp claws and their ability to spit acid. Altaroth can be a nuisance to hunters, especially when they are in large numbers."
+          },
+          {
+            "name": "Baggi",
+            "type": "Small Monster",
+            "description": "Small, bird-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion. Baggi are not particularly dangerous on their own, but they can be a threat when they are in large numbers."
+          },
+          {
+            "name": "Bnahabra",
+            "type": "Small Monster",
+            "description": "Small, insectoid creatures that are often found in forests and jungles. They are known for their poisonous stingers and their ability to paralyze their prey. Bnahabra can be a threat to hunters if they are not careful."
+          },
+          {
+            "name": "Delex",
+            "type": "Small Monster",
+            "description": "Small, fish-like creatures that are often found in deserts. They are known for their ability to swim through sand and their sharp teeth. Delex can be a threat to hunters if they are not careful, especially when they are in large numbers."
+          },
+          {
+            "name": "Epioth",
+            "type": "Small Monster",
+            "description": "Small, herbivorous creatures that are often found in deserts. They are known for their thick hides and their ability to withstand extreme temperatures. Epioth are not particularly dangerous, but they can be a nuisance if they are disturbed."
+          },
+          {
+            "name": "Fish",
+            "type": "Small Monster",
+            "description": "Various small aquatic creatures found in different bodies of water. They are often prey for larger monsters and can be caught by hunters for food or bait."
+          },
+          {
+            "name": "Gargwa",
+            "type": "Small Monster",
+            "description": "Small, bird-like creatures that are often found in forests and jungles. They are known for their colorful plumage and their ability to mimic the sounds of other animals. Gargwa are not particularly dangerous, but they can be a nuisance if they are disturbed."
+          },
+          {
+            "name": "Giggi",
+            "type": "Small Monster",
+            "description": "Small, parasitic creatures that are often found in caves and dark areas. They are known for their ability to latch onto hunters and drain their health. Giggi can be a threat to hunters if they are not careful."
+          },
+          {
+            "name": "Jaggi",
+            "type": "Small Monster",
+            "description": "Small, reptile-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion. Jaggi are not particularly dangerous on their own, but they can be a threat when they are in large numbers."
+          },
+          {
+            "name": "Jaggia",
+            "type": "Small Monster",
+            "description": "Female Jaggi, slightly larger than the males. They often lead the pack and are more aggressive when protecting their young. They are not particularly dangerous on their own, but they can be a threat when they are in large numbers."
+          },
+          {
+            "name": "Ludroth",
+            "type": "Small Monster",
+            "description": "Small, amphibious creatures that are often found in water. They are known for their ability to swim quickly and their sharp teeth. Ludroth can be a threat to hunters if they are not careful, especially when they are in large numbers."
+          },
+          {
+            "name": "Rhenoplos",
+            "type": "Small Monster",
+            "description": "Small, herbivorous creatures that are often found in deserts. They are known for their thick hides and their ability to withstand extreme temperatures. Rhenoplos are not particularly dangerous, but they can be a nuisance if they are disturbed."
+          },
+          {
+            "name": "Slagtoth",
+            "type": "Small Monster",
+            "description": "Small, amphibious creatures that are often found in swamps and rivers. They are known for their sharp claws and their ability to swim quickly. Slagtoth can be a threat to hunters if they are not careful, especially when they are in large numbers."
+          },
+          {
+            "name": "Uroktor",
+            "type": "Small Monster",
+            "description": "Small, lava-dwelling creatures that are often found in volcanic regions. They are known for their ability to swim through lava and their sharp claws. Uroktor can be a threat to hunters if they are not careful."
+          },
+          {
+            "name": "Wroggi",
+            "type": "Small Monster",
+            "description": "Small, reptile-like creatures that are often found in packs. They are scavengers and will eat just about anything, including garbage and carrion. Wroggi are not particularly dangerous on their own, but they can be a threat when they are in large numbers."
+          },
+          {
+            "name": "Agnaktor",
+            "type": "Leviathan",
+            "description": "A large, lava-dwelling leviathan that is known for its ability to burrow through magma. It is a formidable opponent, capable of breathing fire and creating tremors. Agnaktor is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Glacial Agnaktor",
+            "type": "Leviathan",
+            "description": "A variant of Agnaktor that is adapted to cold environments. It is capable of breathing ice instead of fire, and it is also more resistant to cold. Glacial Agnaktor is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Arzuros",
+            "type": "Fanged Beast",
+            "description": "A large, bear-like fanged beast that is known for its thick fur and its powerful claws. It is a relatively docile monster, but it can be dangerous if it is provoked. Arzuros is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Barioth",
+            "type": "Flying Wyvern",
+            "description": "A large, ice-themed flying wyvern that is known for its speed and agility. It is a formidable opponent, capable of breathing ice and creating tornadoes. Barioth is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Sand Barioth",
+            "type": "Flying Wyvern",
+            "description": "A variant of Barioth that is adapted to desert environments. It is capable of breathing sand instead of ice, and it is also more resistant to heat. Sand Barioth is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Barroth",
+            "type": "Brute Wyvern",
+            "description": "A large, mud-covered brute wyvern that is known for its thick hide and its powerful charge attack. It is a relatively docile monster, but it can be dangerous if it is provoked. Barroth is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Jade Barroth",
+            "type": "Brute Wyvern",
+            "description": "A variant of Barroth that is covered in jade instead of mud. This makes it even more resistant to attacks, and it is also capable of using the jade as a weapon. Jade Barroth is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Brachydios",
+            "type": "Brute Wyvern",
+            "description": "A large, slime-covered brute wyvern that is known for its explosive attacks. It is a formidable opponent, capable of unleashing powerful explosions. Brachydios is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Brute Tigrex",
+            "type": "Flying Wyvern",
+            "description": "A variant of Tigrex that is even more aggressive and dangerous. It is larger and more powerful than a normal Tigrex, and its roars are even more deafening. Brute Tigrex is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Deviljho",
+            "type": "Brute Wyvern",
+            "description": "A large, aggressive brute wyvern that is known for its insatiable hunger and its powerful attacks. It is a formidable opponent, capable of devouring other monsters whole. Deviljho is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Savage Deviljho",
+            "type": "Brute Wyvern",
+            "description": "An even more ferocious and powerful Deviljho, driven into a constant state of rage and hunger. Its attacks are even more devastating, and it's capable of consuming even larger prey. Savage Deviljho is a truly terrifying opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Duramboros",
+            "type": "Brute Wyvern",
+            "description": "A large, lumbering brute wyvern known for its massive size and its ability to spin like a top. It's a relatively docile monster, but it can be dangerous if it is provoked. Duramboros is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Rust Duramboros",
+            "type": "Brute Wyvern",
+            "description": "A variant of Duramboros that is covered in rust. This makes it even more resistant to attacks, and it is also capable of using the rust as a weapon. Rust Duramboros is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Gigginox",
+            "type": "Unknown",
+            "description": "A large, parasitic monster that is known for its ability to latch onto hunters and drain their health. It is a formidable opponent, capable of inflicting debilitating status ailments. Gigginox is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Baleful Gigginox",
+            "type": "Unknown",
+            "description": "A variant of Gigginox that is even more powerful and dangerous. It is even more adept at inflicting status ailments, and it is also capable of breathing poison. Baleful Gigginox is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Gobul",
+            "type": "Leviathan",
+            "description": "A large, fish-like leviathan that is known for its ability to inflate its body and its sharp teeth. It is a formidable opponent, capable of both ranged and melee attacks. Gobul is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Great Baggi",
+            "type": "Fanged Beast",
+            "description": "A larger and more powerful Baggi. It leads packs of smaller Baggi and is more adept at using its sleep-inducing breath. Great Baggi is a formidable opponent, and it should only be challenged by hunters who are prepared for a tough fight."
+          },
+          {
+            "name": "Great Jaggi",
+            "type": "Fanged Beast",
+            "description": "A larger and more powerful Jaggi. It leads packs of smaller Jaggi and is more aggressive and territorial than the smaller Jaggi. Great Jaggi is a formidable opponent, and it should only be challenged by hunters who are prepared for a tough fight."
+          },
+          {
+            "name": "Great Wroggi",
+            "type": "Fanged Beast",
+            "description": "A larger and more powerful Wroggi. It leads packs of smaller Wroggi and is more aggressive and territorial than the smaller Wroggi. Great Wroggi is a formidable opponent, and it should only be challenged by hunters who are prepared for a tough fight."
+          },
+          {
+            "name": "Green Nargacuga",
+            "type": "Flying Wyvern",
+            "description": "A variant of Nargacuga with a greenish hue. It may have different behaviors or elemental affinities compared to the standard Nargacuga. It is a formidable opponent."
+          },
+          {
+            "name": "Lucent Nargacuga",
+            "type": "Flying Wyvern",
+            "description": "A rare and elusive variant of Nargacuga that is even faster and more agile than its standard form. It is even more adept at stealth and surprise attacks. Lucent Nargacuga is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Lagiacrus",
+            "type": "Leviathan",
+            "description": "A large, aquatic leviathan that is known for its ability to control electricity. It is a formidable opponent, capable of unleashing powerful electrical attacks. Lagiacrus is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Ivory Lagiacrus",
+            "type": "Leviathan",
+            "description": "A variant of Lagiacrus that is even more powerful and dangerous. It is even more adept at controlling electricity, and its attacks are even more devastating. Ivory Lagiacrus is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Abyssal Lagiacrus",
+            "type": "Leviathan",
+            "description": "A rare and powerful variant of Lagiacrus that dwells in the deepest parts of the ocean. It is even more adept at controlling electricity, and its attacks are even more devastating. Abyssal Lagiacrus is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Lagombi",
+            "type": "Fanged Beast",
+            "description": "A large, rabbit-like fanged beast that is known for its thick fur and its ability to slide on its belly. It is a relatively docile monster, but it can be dangerous if it is provoked. Lagombi is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Nibelsnarf",
+            "type": "Leviathan",
+            "description": "A large, sand-dwelling leviathan that is known for its ability to swim through sand and its sharp teeth. It is a formidable opponent, capable of ambushing hunters from beneath the sand. Nibelsnarf is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Qurupeco",
+            "type": "Bird Wyvern",
+            "description": "A colorful bird wyvern known for its ability to mimic the calls of other monsters. It uses these imitations to confuse its prey and sometimes even to summon other monsters to its aid. Qurupeco is a tricky opponent, and hunters must be wary of its deceptive tactics."
+          },
+          {
+            "name": "Crimson Qurupeco",
+            "type": "Bird Wyvern",
+            "description": "A variant of Qurupeco that is even more adept at mimicry. It can imitate a wider range of monster calls and its imitations are even more convincing. Crimson Qurupeco is a formidable opponent, and hunters must be extra cautious when facing it."
+          },
+          {
+            "name": "Royal Ludroth",
+            "type": "Leviathan",
+            "description": "A larger and more powerful Ludroth. It is the leader of a Ludroth pack, and it is more aggressive and territorial than the smaller Ludroth. Royal Ludroth is a formidable opponent, and it should only be challenged by hunters who are prepared for a tough fight."
+          },
+          {
+            "name": "Purple Ludroth",
+            "type": "Leviathan",
+            "description": "A variant of Royal Ludroth that is even more powerful and dangerous. It is even more adept at controlling water, and its attacks are even more devastating. Purple Ludroth is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Uragaan",
+            "type": "Brute Wyvern",
+            "description": "A large, lava-dwelling brute wyvern known for its thick hide and its ability to roll around like a boulder. It is a relatively docile monster, but it can be dangerous if it is provoked. Uragaan is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Steel Uragaan",
+            "type": "Brute Wyvern",
+            "description": "A variant of Uragaan that is covered in steel instead of rock. This makes it even more resistant to attacks, and it is also capable of using the steel as a weapon. Steel Uragaan is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Volvidon",
+            "type": "Fanged Beast",
+            "description": "A large, armadillo-like fanged beast that is known for its ability to roll up into a ball and its poisonous breath. It is a formidable opponent, capable of both ranged and melee attacks. Volvidon is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Zinogre",
+            "type": "Fanged Wyvern",
+            "description": "A large, wolf-like fanged wyvern that is known for its ability to control electricity. It is a formidable opponent, capable of unleashing powerful electrical attacks. Zinogre is a popular monster among hunters, and it is often sought after for its valuable materials."
+          },
+          {
+            "name": "Stygian Zinogre",
+            "type": "Fanged Wyvern",
+            "description": "A variant of Zinogre that is even more powerful and dangerous. It is even more adept at controlling electricity, and its attacks are even more devastating. Stygian Zinogre is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Alatreon",
+            "type": "Elder Dragon",
+            "description": "A legendary Elder Dragon that is said to control all elements. It is a powerful and elusive creature, capable of changing its elemental attacks at will. Alatreon is a formidable opponent, and it should only be challenged by the most skilled hunters."
+          },
+          {
+            "name": "Amatsu",
+            "type": "Elder Dragon",
+            "description": "An Elder Dragon that controls storms and wind. It is a powerful and majestic creature, capable of creating devastating tornadoes and summoning powerful lightning strikes. Amatsu is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Ceadeus",
+            "type": "Leviathan",
+            "description": "A large, aquatic Elder Dragon that dwells in the deepest parts of the ocean. It is a powerful and ancient creature, capable of controlling the currents and manipulating water pressure. Ceadeus is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+            {
+            "name": "Goldbeard Ceadeus",
+            "type": "Leviathan",
+            "description": "A variant of Ceadeus that is even more powerful and dangerous. It is covered in gold, which makes it even more resistant to attacks. Goldbeard Ceadeus is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Dire Miralis",
+            "type": "Elder Dragon",
+            "description": "A colossal Elder Dragon that embodies destruction and chaos. It is a powerful and ancient creature, capable of unleashing devastating attacks that can reshape the landscape. Dire Miralis is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Jhen Mohran",
+            "type": "Elder Dragon",
+            "description": "A massive Elder Dragon that travels through the desert, leaving a trail of destruction in its wake. It is a powerful and ancient creature, capable of withstanding even the most powerful attacks. Jhen Mohran is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Hallowed Jhen Mohran",
+            "type": "Elder Dragon",
+            "description": "A variant of Jhen Mohran that is even more powerful and dangerous. It is larger and more aggressive than a normal Jhen Mohran, and its attacks are even more devastating. Hallowed Jhen Mohran is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Giadrome",
+            "type": "Bird Wyvern",
+            "description": "A large, pack leader Bird Wyvern that commands smaller Giaprey. It's known for its ice breath and coordinated attacks with its pack."
+          },
+          {
+            "name": "Hypnocatrice",
+            "type": "Bird Wyvern",
+            "description": "A large, nocturnal Bird Wyvern known for its hypnotic abilities. It can induce sleep in its prey with its calls and then attack while they are defenseless."
+          },
+          {
+            "name": "King Shakalaka",
+            "type": "Unknown",
+            "description": "A large, intelligent Shakalaka that rules over other Shakalakas. It's known for its powerful attacks and its ability to use a variety of weapons."
+          },
+          {
+            "name": "Lavasioth",
+            "type": "Leviathan",
+            "description": "A lava-dwelling Leviathan that is known for its thick hide and its ability to breathe fire. It is a formidable opponent, capable of withstanding even the most powerful attacks."
+          },
+          {
+            "name": "Nargacuga",
+            "type": "Flying Wyvern",
+            "description": "A large, nocturnal Flying Wyvern known for its speed and agility. It is a formidable opponent, capable of swift aerial attacks and using its sharp claws and tail to strike."
+          },
+          {
+            "name": "Rajang",
+            "type": "Fanged Beast",
+            "description": "A powerful and aggressive Fanged Beast known for its golden fur and its ability to unleash powerful electrical attacks. It is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Furious Rajang",
+            "type": "Fanged Beast",
+            "description": "A Rajang that has entered a state of extreme rage. It is even more powerful and aggressive than a normal Rajang, and its attacks are even more devastating. Furious Rajang is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Shen Gaoren",
+            "type": "Carapaceon",
+            "description": "A massive Carapaceon that is known for its thick shell and its ability to burrow underground. It is a formidable opponent, capable of withstanding even the most powerful attacks."
+          },
+          {
+            "name": "Shogun Ceanataur",
+            "type": "Carapaceon",
+            "description": "A large Ceanataur that is known for its sharp claws and its ability to use a variety of weapons. It is a formidable opponent, capable of adapting to different situations."
+          },
+          {
+            "name": "Terra Shogun Ceanataur",
+            "type": "Carapaceon",
+            "description": "A variant of Shogun Ceanataur that is even more powerful and dangerous. It is even more adept at using weapons, and its attacks are even more devastating. Terra Shogun Ceanataur is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Tigrex",
+            "type": "Flying Wyvern",
+            "description": "A large, aggressive Flying Wyvern known for its powerful roars and its ability to charge at high speeds. It is a formidable opponent, and it should only be challenged by hunters who are prepared for a tough fight."
+          },
+          {
+            "name": "Ukanlos",
+            "type": "Unknown",
+            "description": "A large, ice-dwelling monster that is known for its thick hide and its ability to burrow through ice. It is a formidable opponent, capable of withstanding even the most powerful attacks."
+          },
+          {
+            "name": "Vespoid Queen",
+            "type": "Small Monster",
+            "description": "A large Vespoid that leads the Vespoid colony. It is larger and more powerful than the other Vespoids, and it is also capable of laying eggs."
+          },
+          {
+            "name": "Chameleos",
+            "type": "Elder Dragon",
+            "description": "An Elder Dragon known for its ability to blend in with its surroundings and its poisonous breath. It is a master of disguise and can be difficult to spot. Chameleos is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Kushala Daora",
+            "type": "Elder Dragon",
+            "description": "An Elder Dragon that controls wind and storms. It is a powerful and majestic creature, capable of creating devastating tornadoes and summoning powerful lightning strikes. Kushala Daora is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          },
+          {
+            "name": "Rusted Kushala Daora",
+            "type": "Elder Dragon",
+            "description": "A Kushala Daora that has become weakened and rusted due to age. It is still a formidable opponent, but it is not as powerful as a normal Kushala Daora."
+          },
+          {
+            "name": "Lunastra",
+            "type": "Elder Dragon",
+            "description": "A female Elder Dragon that is known for its fiery breath and its aggressive nature. It is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "Teostra",
+            "type": "Elder Dragon",
+            "description": "A male Elder Dragon that is known for its fiery breath and its aggressive nature. It is a formidable opponent, and it should only be challenged by the most experienced hunters."
+          },
+          {
+            "name": "White Fatalis",
+            "type": "Elder Dragon",
+            "description": "A legendary Elder Dragon that is said to be the embodiment of destruction. It is a powerful and ancient creature, capable of unleashing devastating attacks that can reshape the landscape. White Fatalis is a formidable opponent, and it should only be challenged by the most skilled hunters."
+          },
+          {
+            "name": "Yama Tsukami",
+            "type": "Elder Dragon",
+            "description": "A massive Elder Dragon that is said to be the guardian of the mountains. It is a powerful and ancient creature, capable of controlling the earth and summoning powerful earthquakes. Yama Tsukami is a formidable opponent, and it should only be challenged by a team of experienced hunters."
+          }
+      ]
+  }

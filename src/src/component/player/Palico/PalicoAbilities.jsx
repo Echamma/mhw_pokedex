@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import abilities from "./palico.json"
+import Ability from "../ability"
 
 const PalicoAbilities = ({Level}) =>
 {
@@ -14,18 +15,15 @@ const PalicoAbilities = ({Level}) =>
         
         abilityGetter()
 
-    },[])
+    },[Level])
 
     return(
-        <div>
-            <h3>Palico Abilities</h3>
+        <div className='container abilityContainer mt-5 mr-10'>
+            <h2 className="justify-center flex">Palico Abilities</h2>
             <ul>
                 {
                     levelAbilities.map((ability, key)=>(
-                        <li key = {key}>{ability.name}
-                        <br />
-                        {ability.description}
-                        </li>
+                        <Ability name={ability.name} type={"Bonus"} desc={ability.description} ></Ability>
                         
                     ))
                 }

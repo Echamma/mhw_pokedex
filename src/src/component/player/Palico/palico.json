@@ -6,7 +6,7 @@
   },
   {
     "name": "Dragonic Theft",
-    "description": "Steal an ability from a monster",
+    "description": "Steal a bonus action from a monster/humaniod stopping it from using a bonus action next turn",
     "level": 5
   },
   {

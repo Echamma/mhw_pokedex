@@ -247,14 +247,14 @@
       "Semi-Actions": [
         {
           "level": 1,
-          "Ability": "Launch an ally towards a target",
-          "Description": "Use your strength to propel an ally into an enemy, dealing damage.",
+          "Ability": "Launch",
+          "Description": "Use your strength to propel an ally into the air, allowing ally to do an attack airborn dealing damage.",
           "Damage or Healing": null
         },
         {
           "level": 2,
           "Ability": "Staggering Blow",
-          "Description": "Make a quick strike that causes the enemy to lose their next action.",
+          "Description": "Make a quick strike that causes the enemy to lose their next action. Cannot Be used two turns in a row",
           "Damage or Healing": null
         },
         {
@@ -3799,7 +3799,7 @@
           "Damage or Healing": null
         }
       ],
-      "BonusActions": [
+      "Bonus Actions": [
         {
           "level": 1,
           "Ability": "Guard Stance",

@@ -1,27 +1,28 @@
 import React, { useEffect, useState } from 'react';
+import weapons from './weapons.json'
 
 const WeaponChooser = ({ setWeapon }) => {
-    const [weapons, setWeapons] = useState([]);
-
-    const fetchWeaponData = async () => {
-        const response = await fetch('./weapons.json');
-        const weaponsData = await response.json(); 
-        return weaponsData;
-    };
+    const [weapon, setWeapons] = useState([]);
 
     useEffect(() => {
-        const loadWeapons = async () => {
-            const weaponsData = await fetchWeaponData();
-            setWeapons(Object.keys(weaponsData)); 
+        const fetchWeaponData = () => {
+            try {
+                const weaponsData = weapons;
+                console.log(weaponsData)
+                setWeapons(Object.keys(weaponsData));
+            } catch (error) {
+                console.error("Failed to load weapons:", error);
+            }
         };
 
-        loadWeapons();
+        fetchWeaponData();
     }, []);
 
     return (
-        <select onChange={(e) => setWeapon(e.target.value)}>
-            {weapons.map((weaponName, index) => (
-                <option key={index} value={weaponName}>
+        <select onChange={(e) => setWeapon(e.target.value)} className='container abilityContainer'>
+            <option>Choose a weapon</option>
+            {weapon.map((weaponName) => (
+                <option key={weaponName} value={weaponName}>
                     {weaponName}
                 </option>
             ))}
